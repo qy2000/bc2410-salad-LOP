@@ -1,0 +1,1001 @@
+,UUID,Name,Restaurant Visited,Number of items on menu,Purchase
+0,ID-504876475,Brandon Lloyd,Xin Chao Vietnamese Restaurant,31,0
+1,ID-131411578,Susan Levy,Bistro Bazaar,25,0
+2,ID-884080160,Frederick Harrell,Deli Divine,32,0
+3,ID-328711587,Michelle Kelley,Salty Squid,22,0
+4,ID-131989471,Clinton Underwood,Bistro Bazaar,25,0
+5,ID-762471122,Stephanie Leblanc,Whispering Bamboo,4,0
+6,ID-800848339,Martin Graves DVM,Greenanic Smoothies,21,0
+7,ID-459179533,Christopher Simmons,Flavoroso,10,1
+8,ID-020230989,Mark Obrien,Menu Feed,9,1
+9,ID-561510903,Allison Coleman,Island Grill,39,0
+10,ID-251314562,William Gonzalez,Cuisine Wave,33,0
+11,ID-792302258,Alexis Maldonado,Grub lord,33,0
+12,ID-556428071,Troy Bell,Paterro's Kitchen,29,0
+13,ID-992466109,Amanda Savage,Kitchen Takeout,19,1
+14,ID-502714278,Eric Owens PhD,Menu Feed,9,1
+15,ID-011812066,Miss Lisa Lee,Feast Lounge,23,0
+16,ID-544217610,Ruth Newman,Spicella Spanish Kitchen,36,0
+17,ID-540003485,Stephanie Bowman,Veganic Corner,7,1
+18,ID-436940224,Marc Williams,Deli Divine,32,0
+19,ID-945682417,Elizabeth Houston,Deli Divine,32,0
+20,ID-118775517,Jaime Villegas,Island Grill,39,0
+21,ID-113306016,Michelle Robinson,Freddy’s Stove,40,0
+22,ID-283492635,Christina Crawford,Greenanic Smoothies,21,0
+23,ID-039213765,Jenny Boyd,Deli Feast,26,0
+24,ID-773893055,Brittney Gray,Munchtastic,35,0
+25,ID-118013204,Joseph Johnson,Xin Chao Vietnamese Restaurant,31,0
+26,ID-691634896,Rebecca Sandoval,Munch Grill,17,0
+27,ID-604248945,Dennis Bryan DDS,Eatery Hotspot,20,1
+28,ID-502234500,Megan Hernandez,Xin Chao Vietnamese Restaurant,31,0
+29,ID-709767017,Lorraine Garcia,Flavoroso,10,1
+30,ID-800367109,Michelle Phillips,Spicella Spanish Kitchen,36,0
+31,ID-418306753,Dr. Tony Estrada,Kitchen Sensation,9,1
+32,ID-531886841,Jennifer Garcia,Street Deli,17,0
+33,ID-766075415,Adam Mccann,Xin Chao Vietnamese Restaurant,31,0
+34,ID-492303104,Chelsea Rodriguez,Mediterra Seafood,34,0
+35,ID-720355744,Ashley Carpenter MD,Munch Grill,17,0
+36,ID-358332456,Benjamin Fisher,Veganic Corner,7,1
+37,ID-800296451,Jason Butler,Deli Divine,32,0
+38,ID-573547121,Jill Ross,Street Deli,17,1
+39,ID-523758257,Joann Murray,Sweet Escape,5,0
+40,ID-148926717,Diana Riggs,Island Grill,39,0
+41,ID-250046896,Megan Gonzalez,Paterro's Kitchen,29,0
+42,ID-214485183,Laura Burton,Menu Feed,9,1
+43,ID-131686447,Bryan Morales,Munch Grill,17,0
+44,ID-028457637,Tyler Wallace Jr.,Grub Chef,14,0
+45,ID-009305760,Natalie Caldwell,Grub lord,33,0
+46,ID-801904432,Brian Murray,Grub Chef,14,0
+47,ID-725662728,Richard Price,Bistroporium,3,0
+48,ID-633739060,Patrick Byrd,Whispering Bamboo,4,0
+49,ID-918456708,Katherine Padilla,Menu Gusto,7,1
+50,ID-400025040,Melanie Arellano,Grassfed Grill,28,0
+51,ID-011735919,Dawn Boyd,Cuisine Wave,33,0
+52,ID-138533444,Gregory Marquez,Deli Divine,32,0
+53,ID-781077706,Bruce Miller,Eateryworks,31,0
+54,ID-563791686,Seth Michael,Feast Lounge,23,0
+55,ID-718498347,Denise Smith,Bistroporium,3,0
+56,ID-526334088,Omar Howard,Deli Divine,32,0
+57,ID-331845357,Erin Richards,Spicella Spanish Kitchen,36,0
+58,ID-390262281,Rachael Hampton,Salty Squid,22,0
+59,ID-532365992,Katherine Parker,Grandma’s Sweets,14,0
+60,ID-778514296,Janet Brown,Munchies,40,0
+61,ID-835734524,Joshua Oconnor,Grandma’s Sweets,14,0
+62,ID-070030035,Cindy Graham,Menu Feed,9,1
+63,ID-725660648,Jennifer Myers,Kitchen Sensation,9,1
+64,ID-761298215,Samantha Wright,Mediterra Seafood,34,0
+65,ID-390282169,Judith Hernandez,Bangalore Spices,31,0
+66,ID-545600715,Nicolas Sullivan,Mediterra Seafood,34,0
+67,ID-604848708,Anthony Nelson,Munchies,40,0
+68,ID-794388564,William Ballard,Veganic Corner,7,1
+69,ID-225090925,Erica Patton,Greenanic Smoothies,21,0
+70,ID-520290725,Timothy Ramirez,Green Curry,20,1
+71,ID-129188966,Sally Ramirez,Deli Divine,32,0
+72,ID-536208296,William Moore,Island Grill,39,0
+73,ID-703934261,Miguel Shields,Whispering Bamboo,4,0
+74,ID-532716644,Johnathan Farmer,Eatery Hotspot,20,0
+75,ID-666097592,Alexander Wells,Greenanic Smoothies,21,0
+76,ID-131019550,Ernest Skinner,Mediterra Seafood,34,0
+77,ID-862462926,Carla Orozco,Flavoroso,10,1
+78,ID-008086259,Derek Mcbride,Grub lord,33,0
+79,ID-748727820,Emily Arroyo,Menu Feed,9,1
+80,ID-937825278,Joseph Smith,Bistro Captain,27,0
+81,ID-469597568,Calvin Morgan,Munchies,40,0
+82,ID-506046092,Steven Avila,Eatery Hotspot,20,0
+83,ID-976207436,Christopher Gilbert,Kitchen Takeout,19,0
+84,ID-578771086,Tyler Ruiz,El Pirata Porch,7,1
+85,ID-038840065,Melissa Martin,Feast Palace,38,0
+86,ID-950760334,Jason Cox,Flavoroso,10,1
+87,ID-569029062,Anthony Frost,Pancake World,36,0
+88,ID-526066953,Carlos Knight,Cuisine Street,17,0
+89,ID-466376363,Yolanda Dyer,Deli Feast,26,0
+90,ID-499734095,James Saunders,Feast Lounge,23,0
+91,ID-561797225,Ashley Richardson,Kitchen Takeout,19,0
+92,ID-780342954,Jason Brooks,Bistroporium,3,0
+93,ID-221952069,Michael Becker,Paterro's Kitchen,29,0
+94,ID-011223230,Michelle Rogers,Spicella Spanish Kitchen,36,0
+95,ID-342585826,John Torres,Street Deli,17,0
+96,ID-512209981,Nicholas Jackson,Cuisine Wave,33,0
+97,ID-201575175,Samantha Miller,Bistro Captain,27,0
+98,ID-131028693,Tamara Jackson,Eatery Hotspot,20,0
+99,ID-006196538,Debra Romero,Grub lord,33,0
+100,ID-800742385,Victor Mendoza,Street Deli,17,0
+101,ID-581473142,Christina Johnson,Paterro's Kitchen,29,0
+102,ID-517855103,Henry Friedman,Eatery Hotspot,20,0
+103,ID-414963562,Rachael Campbell,Salty Squid,22,1
+104,ID-516587355,Karen Carter,Deli Divine,32,0
+105,ID-025325731,Veronica Bray,El Pirata Porch,7,1
+106,ID-568473580,Jessica Williams,Eatery Hotspot,20,0
+107,ID-304143521,Helen Hall,Bistroporium,3,0
+108,ID-018680219,Christina Figueroa,Street Deli,17,0
+109,ID-896182336,Jessica James,Bistro Captain,27,1
+110,ID-762409555,Linda Davis,Grub lord,33,0
+111,ID-440292639,Brian Bartlett,Grub Chef,14,0
+112,ID-677278526,Rodney Hall,Eatery Hotspot,20,0
+113,ID-760708673,John Perez,Grassfed Grill,28,0
+114,ID-792813481,Cody Crawford,Kitchen Sensation,9,1
+115,ID-058352889,Laura Lewis,Cuisine Street,17,0
+116,ID-003795830,Shane Bishop,Bistro Captain,27,0
+117,ID-864573258,Julie Thomas,Spicella Spanish Kitchen,36,0
+118,ID-567835006,Jennifer Clark,Pancake World,36,0
+119,ID-763287468,Larry Cross,Whispering Bamboo,4,0
+120,ID-669541039,Tina Richardson,Deli Feast,26,0
+121,ID-041974366,Deborah Davis,Menu Gusto,7,1
+122,ID-997187656,Stacey Wilson,Cuisine Wave,33,0
+123,ID-011044615,Gina Tran,Kitchen Takeout,19,0
+124,ID-045251986,Zachary Anderson,Cuisine Wave,33,0
+125,ID-761351832,Lee Mcgee,Munchtastic,35,0
+126,ID-445833752,Erin Brennan,Green Curry,20,0
+127,ID-419041243,Jonathan Decker,Pancake World,36,0
+128,ID-397524364,Mary Stewart,Grub Chef,14,0
+129,ID-800038249,Dawn Edwards,Cuisine Street,17,0
+130,ID-800716528,Brad Garcia,Freddy’s Stove,40,0
+131,ID-705861837,Tammy Martin,Masala,23,0
+132,ID-800332342,David Hoover,Bistroporium,3,0
+133,ID-011382923,Christopher Wagner,Street Deli,17,0
+134,ID-887121801,Joanna Hill,Deli Feast,26,0
+135,ID-564129330,Richard Juarez,Salty Squid,22,0
+136,ID-092555484,John Alexander,Grub lord,33,0
+137,ID-045596696,Chelsea Robinson,Menu Gusto,7,1
+138,ID-131829888,Terrence Rose,Green Curry,20,0
+139,ID-547103914,Mary Lynch,Grassfed Grill,28,0
+140,ID-009243675,Denise Rodgers,Paterro's Kitchen,29,0
+141,ID-011522729,Amy Merritt,Feast Palace,38,0
+142,ID-763281645,Antonio Mata,Kitchen Sensation,9,1
+143,ID-777954172,Lisa Fisher,Cuisine Street,17,0
+144,ID-219127416,Rebecca Smith,Feast Palace,38,0
+145,ID-521667052,Thomas Orr,Feast Palace,38,0
+146,ID-762628466,Russell Johns,Flavoroso,10,1
+147,ID-392197444,Andrea Smith,Grandma’s Sweets,14,1
+148,ID-282150525,Julie Fox,Menu Gusto,7,1
+149,ID-277668786,Kayla Hernandez,Eatery Hotspot,20,1
+150,ID-520691184,Emma Caldwell,Street Deli,17,0
+151,ID-585380655,Jacob Wang,Veganic Corner,7,1
+152,ID-881095052,Dr. Stephen Barnes,Grub Chef,14,0
+153,ID-752078264,Ms. Vanessa Thompson MD,Bistro Bazaar,25,0
+154,ID-569286635,Kimberly Glenn,Grassfed Grill,28,0
+155,ID-739592532,Linda English,Bangalore Spices,31,0
+156,ID-832959318,Jorge Gomez,Paterro's Kitchen,29,0
+157,ID-500339287,Ernest Nunez,Freddy’s Stove,40,0
+158,ID-501052498,Tracy Davis,Munchtastic,35,0
+159,ID-380985919,Kevin Myers,Green Curry,20,0
+160,ID-442293223,Blake Villanueva,Sweet Escape,5,0
+161,ID-239058724,Charles Clark,Menu Gusto,7,1
+162,ID-562278085,Matthew Gross,Feast Lounge,23,0
+163,ID-157458943,Troy Kerr,Xin Chao Vietnamese Restaurant,31,0
+164,ID-627264832,Hailey Huffman,Bistro Bazaar,25,1
+165,ID-582892049,James Miller,Masala,23,0
+166,ID-800187203,Benjamin Poole,Deli Divine,32,0
+167,ID-371318293,Lisa Burke,Flavoroso,10,1
+168,ID-790553037,John Munoz,Bistroporium,3,0
+169,ID-654191759,Cynthia Smith,Spicella Spanish Kitchen,36,0
+170,ID-852185515,Billy Soto,Munchies,40,0
+171,ID-975292964,Kimberly Giles,Eateryworks,31,0
+172,ID-779151173,Scott Sutton,Menu Feed,9,1
+173,ID-574948623,Lori Smith,Grassfed Grill,28,0
+174,ID-299211414,Andrew Jones,Green Curry,20,0
+175,ID-005546604,Brianna Salas,Whispering Bamboo,4,0
+176,ID-504698825,Tammy Evans MD,Munch Grill,17,0
+177,ID-344152706,Julie Cameron,Green Curry,20,1
+178,ID-520416437,Debra Russo,Mediterra Seafood,34,0
+179,ID-535410645,Becky Howard,Whispering Bamboo,4,0
+180,ID-572566659,Travis Warren,Eateryworks,31,0
+181,ID-573616049,Megan Smith,Munchtastic,35,0
+182,ID-155733597,Aaron Rivera,Sweet Escape,5,0
+183,ID-818411894,Ashley Martin,Bangalore Spices,31,0
+184,ID-742790860,Nathaniel Perez,Deli Divine,32,0
+185,ID-260969345,Reginald Lopez,Bistro Bazaar,25,0
+186,ID-505794301,Catherine Velasquez,Street Deli,17,0
+187,ID-582076775,Carlos Miller MD,Grub lord,33,0
+188,ID-943160875,Jose Campbell,Flavoroso,10,1
+189,ID-020566634,Kristen Burton,Feast Palace,38,0
+190,ID-726669947,Carolyn Johnson,Menu Feed,9,1
+191,ID-841353609,Kathleen Jones,Kitchen Takeout,19,0
+192,ID-221320866,Amanda Mendoza,Veganic Corner,7,1
+193,ID-474446094,Timothy Schultz,Sweet Escape,5,1
+194,ID-131616001,Andrew Williams,Paterro's Kitchen,29,0
+195,ID-571920821,Taylor Reynolds,Bangalore Spices,31,0
+196,ID-578281256,Kristen Davis,Bistroporium,3,0
+197,ID-585898643,Tracy Moss,Salty Squid,22,0
+198,ID-700024322,Dean Taylor,Paterro's Kitchen,29,0
+199,ID-038553187,Erica Walters,Bangalore Spices,31,0
+200,ID-556146850,Paula Moore,Bistroporium,3,0
+201,ID-415604324,Jennifer Li,Feast Palace,38,0
+202,ID-400925263,Stephanie Gibson,Veganic Corner,7,1
+203,ID-800995551,Steven Bowen,Cuisine Wave,33,0
+204,ID-590397662,Michael Moore,Menu Gusto,7,0
+205,ID-542124264,Bryan Jacobs III,Feast Palace,38,0
+206,ID-569807883,Bradley Yates,Veganic Corner,7,1
+207,ID-507685878,Nicole Lawson,Grandma’s Sweets,14,0
+208,ID-613129727,Vickie Burns,Greenanic Smoothies,21,0
+209,ID-583058468,Cheyenne Johnson,Xin Chao Vietnamese Restaurant,31,0
+210,ID-019802792,Thomas Macias,Street Deli,17,1
+211,ID-451191449,Mark Davis,Bistro Bazaar,25,0
+212,ID-676263634,Joel Anderson,Bistroporium,3,0
+213,ID-472189975,Henry Reeves,Greenanic Smoothies,21,0
+214,ID-465545034,Angela Mills,Island Grill,39,0
+215,ID-061677220,Ariana Castaneda,Munchtastic,35,0
+216,ID-287452642,Rebecca Cuevas,Masala,23,0
+217,ID-002527331,Paul Martinez,Cuisine Street,17,0
+218,ID-398575978,Denise Mason,Bangalore Spices,31,0
+219,ID-547210788,Emily Flynn,Grub lord,33,0
+220,ID-728072018,Ashley Morris,Xin Chao Vietnamese Restaurant,31,0
+221,ID-103256895,Nancy Perry,Deli Divine,32,0
+222,ID-925447586,Kelli Torres,Eateryworks,31,0
+223,ID-800656403,Samantha Mcfarland,Bistro Bazaar,25,0
+224,ID-273293148,Timothy Hamilton,Salty Squid,22,0
+225,ID-080119229,Calvin Berry,Bangalore Spices,31,0
+226,ID-131939979,Anna Mckee,Island Grill,39,0
+227,ID-524452758,Jeffrey Wright,Bistro Bazaar,25,0
+228,ID-791517974,William Castro,Kitchen Sensation,9,1
+229,ID-009228957,Allen Trevino,Bistro Bazaar,25,0
+230,ID-012454927,Christopher Aguirre,Bistro Bazaar,25,0
+231,ID-921687826,Dale Fritz,Grandma’s Sweets,14,0
+232,ID-506545947,Courtney Sherman,Whispering Bamboo,4,0
+233,ID-508965395,Theresa Gomez,Deli Feast,26,0
+234,ID-011449260,Keith Nichols,Grub lord,33,0
+235,ID-789122999,Cindy Brown,Eatery Hotspot,20,0
+236,ID-109327384,Rhonda Smith,Street Deli,17,0
+237,ID-548394096,Elizabeth Hernandez,Grub lord,33,0
+238,ID-604096063,Elizabeth Smith,Munchtastic,35,0
+239,ID-581001266,Andrew Sullivan,Munchies,40,0
+240,ID-605683859,Clinton Gonzalez,Grub Chef,14,0
+241,ID-614554229,Tony Salinas,Deli Feast,26,0
+242,ID-717263662,Kelly Lewis,Grassfed Grill,28,0
+243,ID-539181224,Whitney Montgomery,Salty Squid,22,0
+244,ID-405208379,George Garcia,Deli Divine,32,0
+245,ID-540415435,Tracy Reed,Bistro Captain,27,0
+246,ID-011808614,Jennifer Tran,Munchies,40,0
+247,ID-144274389,Timothy Hebert,Veganic Corner,7,1
+248,ID-575821767,Jason Marsh,Eatery Hotspot,20,0
+249,ID-021163416,Kylie Powell,Menu Gusto,7,1
+250,ID-585332118,Jessica Hernandez,Eateryworks,31,0
+251,ID-552052185,Karen Gilbert,Grandma’s Sweets,14,1
+252,ID-045913064,Sue Green PhD,Green Curry,20,0
+253,ID-572017454,Monica Rowland,Eatery Hotspot,20,0
+254,ID-530698469,Brandon Martinez,Feast Lounge,23,0
+255,ID-353913654,Nicholas Chavez,Munchies,40,0
+256,ID-290150337,Matthew Hale,Bistro Captain,27,0
+257,ID-532331210,Matthew Foster,Bistroporium,3,0
+258,ID-583294846,Tammy Baker,Bistroporium,3,1
+259,ID-159484771,Natalie Pacheco,Kitchen Sensation,9,1
+260,ID-591839000,Mr. Scott Robertson DDS,Menu Gusto,7,1
+261,ID-697745099,Gregory Weber,Xin Chao Vietnamese Restaurant,31,0
+262,ID-287747112,James Peterson,Island Grill,39,0
+263,ID-088454951,Katherine Griffin,El Pirata Porch,7,1
+264,ID-310676905,David Horton,Paterro's Kitchen,29,0
+265,ID-016804120,Patricia Carpenter,Bistroporium,3,0
+266,ID-277954530,Janet Williams,Street Deli,17,0
+267,ID-830852397,Jeremy Jackson,Greenanic Smoothies,21,0
+268,ID-754360012,Robert Donovan,Masala,23,0
+269,ID-512282660,Thomas Richardson,Pancake World,36,0
+270,ID-719551635,Charlene Taylor,El Pirata Porch,7,1
+271,ID-131599891,Jeremy Foster,Spicella Spanish Kitchen,36,0
+272,ID-452425715,Daniel Moore,Grub Chef,14,0
+273,ID-693052076,Donna Vaughn MD,Kitchen Sensation,9,1
+274,ID-569779666,Marcus Moore,Sweet Escape,5,0
+275,ID-011240757,Katherine Taylor,Mediterra Seafood,34,0
+276,ID-049630396,Madison Pham,Munch Grill,17,1
+277,ID-697579209,Robert Roberts,Bistro Bazaar,25,0
+278,ID-046937327,Eduardo Shields,Eateryworks,31,0
+279,ID-264223422,Cameron Michael,Feast Lounge,23,0
+280,ID-542049516,Sarah Yu,Munchies,40,0
+281,ID-131056975,Michael Watkins,Flavoroso,10,1
+282,ID-200265055,Christine Day,Flavoroso,10,1
+283,ID-011010536,Timothy Fischer,El Pirata Porch,7,0
+284,ID-323663308,Lisa Rosales,Deli Divine,32,0
+285,ID-483793909,Gary Howell,Flavoroso,10,1
+286,ID-244911672,Kelly Mcdonald,Whispering Bamboo,4,1
+287,ID-131633915,Todd Alvarez,Bistroporium,3,0
+288,ID-037293965,Neil Weaver,Bistroporium,3,0
+289,ID-249594047,Isaac Johnson,Munchies,40,0
+290,ID-598000694,Donald Doyle,Feast Palace,38,0
+291,ID-405190819,Samantha Garcia,Feast Lounge,23,0
+292,ID-283379463,Beverly Vazquez,Mediterra Seafood,34,0
+293,ID-133126764,Mary Moore DDS,Munch Grill,17,0
+294,ID-504697796,Kathryn Morgan,El Pirata Porch,7,1
+295,ID-538644655,Jason Ferguson,Salty Squid,22,0
+296,ID-467348561,Miss Rhonda Cain,Xin Chao Vietnamese Restaurant,31,0
+297,ID-663092066,Brandon Hernandez,Eateryworks,31,0
+298,ID-525628473,Adam Love,Munch Grill,17,1
+299,ID-044806792,Heather Irwin,Eatery Hotspot,20,1
+300,ID-478346067,Kelli Mills,Grassfed Grill,28,0
+301,ID-543905419,David Strong,Menu Feed,9,1
+302,ID-604822634,Lauren Brown,Cuisine Street,17,0
+303,ID-762547944,James Anderson,Munchtastic,35,0
+304,ID-811225638,Alexandra Brock,Grub Chef,14,0
+305,ID-319671172,Donald Thomas,Grandma’s Sweets,14,0
+306,ID-859380378,Tammy Peters,Cuisine Wave,33,0
+307,ID-854620394,Alexandra Jackson,Munchtastic,35,0
+308,ID-286346859,Shelly Bennett,Salty Squid,22,0
+309,ID-483999073,Andrew Carney,Flavoroso,10,0
+310,ID-560294409,Rebekah Bailey,Munchtastic,35,0
+311,ID-539901573,Lindsey Savage,Bangalore Spices,31,0
+312,ID-037868722,Jason Humphrey,Deli Feast,26,0
+313,ID-419957937,Kimberly Richard,Deli Feast,26,0
+314,ID-011717478,Thomas Barnes,Xin Chao Vietnamese Restaurant,31,0
+315,ID-727514939,Aaron Hansen,Grassfed Grill,28,0
+316,ID-587420654,Walter Davis,Grassfed Grill,28,0
+317,ID-593140279,William Moore,Flavoroso,10,1
+318,ID-380077521,Anthony Perez,Flavoroso,10,1
+319,ID-507418215,Lisa Lewis,Eatery Hotspot,20,0
+320,ID-800832251,Kendra Rodriguez,Grassfed Grill,28,0
+321,ID-011206809,Andrew Hall,Eatery Hotspot,20,0
+322,ID-414470163,Melanie Rodriguez,Greenanic Smoothies,21,0
+323,ID-554501645,Bill Reed,Pancake World,36,0
+324,ID-229381486,Tonya Wagner,Bistroporium,3,0
+325,ID-035955990,James Anderson,Munchtastic,35,0
+326,ID-768433163,Tina Curtis,Flavoroso,10,1
+327,ID-720890522,Donna Morris,Feast Lounge,23,0
+328,ID-572726855,Barbara Lowery,Feast Palace,38,0
+329,ID-417893077,Matthew Pope,Paterro's Kitchen,29,0
+330,ID-555044059,Jessica Dunn,Sweet Escape,5,0
+331,ID-577850501,Brian Gray,Deli Divine,32,0
+332,ID-011799496,Linda Murray,Cuisine Wave,33,0
+333,ID-308087764,Ariana Jackson,Deli Divine,32,0
+334,ID-777463005,Mark Gonzalez,Grub lord,33,0
+335,ID-532488269,Jaclyn Sanders,Kitchen Takeout,19,0
+336,ID-871465565,Brandon Smith,Cuisine Street,17,0
+337,ID-011963651,Bradley Moore,Sweet Escape,5,0
+338,ID-554238702,Misty Gonzalez,Bistro Bazaar,25,0
+339,ID-131542256,Cassandra Gibson,Deli Feast,26,0
+340,ID-670575057,Glenn Pena,Salty Squid,22,0
+341,ID-015768068,Allison Vargas,Xin Chao Vietnamese Restaurant,31,0
+342,ID-800304883,Bailey Brown,Grandma’s Sweets,14,0
+343,ID-707289099,Nicholas Sexton,Munch Grill,17,0
+344,ID-233733453,Richard Lee,Veganic Corner,7,1
+345,ID-627491143,Travis Roberts,Greenanic Smoothies,21,0
+346,ID-643858915,Patricia Thomas,Mediterra Seafood,34,0
+347,ID-685482212,Maria Pena,Kitchen Sensation,9,1
+348,ID-785189703,Leah Hansen,Pancake World,36,0
+349,ID-356843772,William Garcia,Deli Divine,32,0
+350,ID-555728401,Kevin Lowe,El Pirata Porch,7,1
+351,ID-131701855,Rachel Washington,Kitchen Takeout,19,0
+352,ID-599974058,Jacqueline Stout,Menu Gusto,7,1
+353,ID-542573658,Jason Yang,Mediterra Seafood,34,0
+354,ID-566732703,Daniel Yang,Feast Palace,38,0
+355,ID-638026216,Curtis Garcia,Pancake World,36,0
+356,ID-131910247,Mrs. Laura Carr,Grub lord,33,0
+357,ID-727253329,Lisa Smith,Green Curry,20,0
+358,ID-260234130,Michael Jones,Eatery Hotspot,20,0
+359,ID-765900199,Darlene Williams,Cuisine Wave,33,0
+360,ID-840653335,Amber Robinson,Bistro Captain,27,0
+361,ID-486432777,Melissa Roman,Grandma’s Sweets,14,1
+362,ID-514643213,Kimberly Porter,Veganic Corner,7,1
+363,ID-113983327,Jason Lloyd,Grub lord,33,0
+364,ID-592658833,Valerie Fleming,Eatery Hotspot,20,0
+365,ID-008535205,Victoria Dorsey,Greenanic Smoothies,21,0
+366,ID-549823071,Adrienne Austin,Salty Squid,22,0
+367,ID-090702104,Lori Edwards,Menu Gusto,7,1
+368,ID-508976490,James Shaffer,Kitchen Sensation,9,1
+369,ID-429064300,James Horton,Bistroporium,3,0
+370,ID-673440594,Virginia Hill,Kitchen Sensation,9,1
+371,ID-511632345,Joshua Sweeney,Whispering Bamboo,4,0
+372,ID-239749100,Anna Phillips,Feast Lounge,23,0
+373,ID-804887597,Amber Knight,Deli Feast,26,0
+374,ID-041656529,Christopher Johnson,Grub lord,33,0
+375,ID-815492403,Jimmy Farley,Masala,23,0
+376,ID-052481033,Gary Collins,Sweet Escape,5,0
+377,ID-644641009,Leah Weber,El Pirata Porch,7,1
+378,ID-297079483,Jeremy Lee,Spicella Spanish Kitchen,36,0
+379,ID-772836643,Casey Reynolds,Feast Lounge,23,0
+380,ID-639049807,Taylor Johnson,Deli Feast,26,0
+381,ID-521045046,Sarah Wright,Street Deli,17,0
+382,ID-565782914,Mrs. Kathryn Mack,Greenanic Smoothies,21,1
+383,ID-515701224,Jonathan Huffman,Feast Lounge,23,0
+384,ID-838752677,Michele Ayers,Paterro's Kitchen,29,0
+385,ID-676945112,Joseph Castillo,Salty Squid,22,0
+386,ID-623905574,Erica Turner,Pancake World,36,0
+387,ID-011795956,Rebekah Allen,Grandma’s Sweets,14,0
+388,ID-701466457,Erin Miller,Greenanic Smoothies,21,0
+389,ID-892049493,Stephanie Lewis,Island Grill,39,0
+390,ID-976214655,Tracy Holland,Greenanic Smoothies,21,0
+391,ID-625123827,Victor Alexander,Greenanic Smoothies,21,0
+392,ID-199376858,Charles Cooley,Grub lord,33,0
+393,ID-982203190,Christian Rogers,Spicella Spanish Kitchen,36,0
+394,ID-800159156,Anthony Evans,Whispering Bamboo,4,0
+395,ID-390215542,Nicole Santos,Kitchen Takeout,19,1
+396,ID-511627987,Christian Gilmore,Bistro Bazaar,25,0
+397,ID-518842456,Elizabeth Franklin,Flavoroso,10,1
+398,ID-040072103,Courtney Joseph,Island Grill,39,0
+399,ID-800647799,Holly Martin,Island Grill,39,0
+400,ID-866853241,Anthony Valdez,Bistroporium,3,0
+401,ID-131101269,Nicholas Hicks,Grandma’s Sweets,14,1
+402,ID-390320974,Lindsey Moyer,Feast Lounge,23,0
+403,ID-800512182,Daniel Green,Menu Gusto,7,1
+404,ID-834986747,Jason Gonzalez,Street Deli,17,0
+405,ID-593081065,Nathaniel Henry,Feast Lounge,23,0
+406,ID-694692201,Christina Brown,Sweet Escape,5,0
+407,ID-799694991,Jennifer Taylor,Mediterra Seafood,34,0
+408,ID-546469073,Elizabeth Russell,Munch Grill,17,0
+409,ID-759635001,Mark Peterson,Grassfed Grill,28,0
+410,ID-552551454,Brian Santana,Cuisine Wave,33,0
+411,ID-242400355,Brian Henry,Deli Divine,32,0
+412,ID-598211264,Mrs. Denise Nelson,Grandma’s Sweets,14,0
+413,ID-443146657,Collin Ward,Bistroporium,3,0
+414,ID-205749452,Megan Singleton,Cuisine Wave,33,0
+415,ID-010763429,Wendy Wolfe,Kitchen Takeout,19,0
+416,ID-577759411,Kevin Massey,Eateryworks,31,0
+417,ID-761226852,John Jackson,Bistroporium,3,0
+418,ID-471250144,Micheal Smith,Munchtastic,35,0
+419,ID-914588644,Robert Rodriguez,Bistro Bazaar,25,0
+420,ID-724011474,Javier Cain,Veganic Corner,7,1
+421,ID-632742192,Austin Barker,Flavoroso,10,1
+422,ID-131497612,Christopher Johnson,Feast Palace,38,0
+423,ID-018310714,Michelle Welch,Feast Lounge,23,0
+424,ID-889276308,Jennifer Collier,Masala,23,0
+425,ID-131292592,Jason Clark,El Pirata Porch,7,1
+426,ID-583710978,Laura Kemp,Freddy’s Stove,40,0
+427,ID-501424311,Jordan Acevedo,Sweet Escape,5,0
+428,ID-604231629,Heather Clark,Grandma’s Sweets,14,0
+429,ID-918387279,Eric Blackwell,Freddy’s Stove,40,0
+430,ID-636792608,Richard Davis,Bistroporium,3,0
+431,ID-242653163,Christopher Conley,Paterro's Kitchen,29,0
+432,ID-653336264,John Lucas,Deli Divine,32,0
+433,ID-604283576,Pamela Colon,Grandma’s Sweets,14,0
+434,ID-020906203,Richard Rose,Street Deli,17,0
+435,ID-257057072,Angela Chapman,Cuisine Wave,33,0
+436,ID-516431535,Roger Washington,Pancake World,36,0
+437,ID-759303349,John George,Kitchen Sensation,9,1
+438,ID-011001179,Paul Schultz,Munch Grill,17,0
+439,ID-588515404,Gregory Knox,Spicella Spanish Kitchen,36,0
+440,ID-289924772,Derrick Ruiz,Street Deli,17,0
+441,ID-235300429,Matthew Bennett,Bangalore Spices,31,0
+442,ID-756553847,Heather Marks,Grassfed Grill,28,0
+443,ID-546302842,Toni Rodriguez,Sweet Escape,5,0
+444,ID-785938340,Lisa Cooper,Street Deli,17,0
+445,ID-586556643,Susan Hernandez,Mediterra Seafood,34,0
+446,ID-800814321,Todd Hernandez,Kitchen Takeout,19,0
+447,ID-019363400,Melanie Camacho,Bistro Captain,27,1
+448,ID-761909637,Cameron Johnson,Bistro Bazaar,25,1
+449,ID-114152611,Corey Gonzalez,Grub Chef,14,1
+450,ID-800183438,Stephanie Park,Munchtastic,35,0
+451,ID-531950942,Yolanda Lynch,Freddy’s Stove,40,0
+452,ID-295882713,Kyle Scott,Paterro's Kitchen,29,0
+453,ID-574019058,Matthew Wood,Menu Gusto,7,1
+454,ID-895252151,Tara King,Flavoroso,10,1
+455,ID-137153472,John Anderson,Cuisine Wave,33,0
+456,ID-059803215,Jennifer Garza,Greenanic Smoothies,21,0
+457,ID-424292719,Lisa Flores,Menu Gusto,7,1
+458,ID-581664579,Jeremy Farmer DDS,Munchtastic,35,0
+459,ID-552982987,Catherine Williams,Bangalore Spices,31,0
+460,ID-548107460,Lauren Rogers,Sweet Escape,5,0
+461,ID-684901133,Crystal Palmer,Sweet Escape,5,0
+462,ID-390502467,Steven Diaz,Cuisine Street,17,0
+463,ID-542667759,Ms. Natalie Cook,Feast Palace,38,0
+464,ID-727146308,Alexa Pruitt,Eateryworks,31,0
+465,ID-509385551,Benjamin Kemp,Menu Feed,9,1
+466,ID-800194259,Jessica Sanders,Munch Grill,17,0
+467,ID-518074151,Marcus White,Flavoroso,10,1
+468,ID-500925274,Christopher Johnson,Cuisine Street,17,0
+469,ID-645305398,Carolyn Barnes,Bistroporium,3,0
+470,ID-597296438,Meredith Hodge,Grassfed Grill,28,0
+471,ID-516303758,Pamela Anderson,Bangalore Spices,31,0
+472,ID-552099862,Eric Myers,Feast Lounge,23,0
+473,ID-581674306,Mr. Gary Bell,Greenanic Smoothies,21,0
+474,ID-497283417,Michele Pennington,Street Deli,17,1
+475,ID-761926340,Matthew Flores,Deli Divine,32,0
+476,ID-431860694,Justin Norris,Feast Lounge,23,0
+477,ID-260441074,Philip Wiley,Green Curry,20,1
+478,ID-539021386,Mark White,Bangalore Spices,31,0
+479,ID-899169838,Jill Knight,Bistroporium,3,0
+480,ID-154800521,Cynthia Walker,Whispering Bamboo,4,0
+481,ID-301576675,Breanna Peterson,Masala,23,0
+482,ID-692577359,Robert Jones,Sweet Escape,5,0
+483,ID-720267349,Christopher Brewer,Masala,23,0
+484,ID-390723620,Zachary Johnson,Cuisine Street,17,0
+485,ID-580368790,Jessica Blair,Deli Feast,26,0
+486,ID-313705616,Troy Gutierrez,Grassfed Grill,28,0
+487,ID-615087469,Crystal Wright,Feast Lounge,23,0
+488,ID-644203297,Andrew Terry,Bistro Captain,27,1
+489,ID-539183269,Rebecca Duncan,Bistroporium,3,0
+490,ID-243863308,Michelle Snyder,Street Deli,17,0
+491,ID-131056678,Sarah Morgan,Whispering Bamboo,4,0
+492,ID-051659775,Brenda Meadows DVM,Eateryworks,31,0
+493,ID-794340823,Vernon Ortiz,Island Grill,39,0
+494,ID-011617350,Amanda Hernandez,Deli Feast,26,0
+495,ID-101800851,Joshua Riley,Xin Chao Vietnamese Restaurant,31,0
+496,ID-540372350,Theodore Smith,Green Curry,20,0
+497,ID-378883037,Stephanie Davis,Grub lord,33,0
+498,ID-869793314,Eileen Zuniga,Sweet Escape,5,0
+499,ID-333701651,Christina Strong,Greenanic Smoothies,21,0
+500,ID-800481166,Dennis Griffin,Eatery Hotspot,20,0
+501,ID-564128889,Nicholas Holt,Cuisine Street,17,0
+502,ID-800050003,Cindy Larson,Whispering Bamboo,4,0
+503,ID-884617269,Aaron Clark,Masala,23,0
+504,ID-569797335,Suzanne Potts,Whispering Bamboo,4,0
+505,ID-910046863,Gary Lawrence,Flavoroso,10,1
+506,ID-604037674,Anita Smith,Eatery Hotspot,20,0
+507,ID-138953276,Mr. Jon Johnson,Whispering Bamboo,4,0
+508,ID-545932689,Yvonne Cooper,Munch Grill,17,0
+509,ID-553965107,Jessica King,Eateryworks,31,0
+510,ID-716385327,Ryan West,Sweet Escape,5,0
+511,ID-290466038,Melissa Murray,Munch Grill,17,0
+512,ID-011439631,Jack Rice,Eatery Hotspot,20,0
+513,ID-560212175,Melissa Flores,Grandma’s Sweets,14,0
+514,ID-981336629,Amy Myers,Grub lord,33,0
+515,ID-390610190,Victor Harding,Bistroporium,3,0
+516,ID-571190633,Rebecca Clark,Salty Squid,22,0
+517,ID-058559066,Gabriel Hernandez,Veganic Corner,7,1
+518,ID-662748806,Jennifer Thompson,El Pirata Porch,7,1
+519,ID-565523936,Dr. Elizabeth Mcbride,Grub lord,33,0
+520,ID-555859672,Stephen Nguyen,Masala,23,0
+521,ID-554901427,Terri Wilson,Green Curry,20,0
+522,ID-703902851,Joseph Delgado,Cuisine Wave,33,0
+523,ID-804353675,Frederick Hoffman,Bistroporium,3,0
+524,ID-559134204,Jessica Barnes,Bistroporium,3,0
+525,ID-967549717,Christopher Morrison,Greenanic Smoothies,21,0
+526,ID-532281335,Gloria Carter,Menu Gusto,7,1
+527,ID-590460313,Leslie Walker,Bistro Captain,27,0
+528,ID-251966171,Edward Lee,Grandma’s Sweets,14,0
+529,ID-737225402,Timothy Allen,Paterro's Kitchen,29,0
+530,ID-516499175,Glenn Morris,Paterro's Kitchen,29,0
+531,ID-548182562,Dustin Smith,Kitchen Sensation,9,1
+532,ID-903296027,Austin Fowler,Kitchen Takeout,19,0
+533,ID-515166635,Kenneth Neal,Deli Divine,32,0
+534,ID-284569463,Paul Hernandez,Freddy’s Stove,40,0
+535,ID-896167766,James Harris,Grandma’s Sweets,14,0
+536,ID-520092444,Daniel Rose,Bangalore Spices,31,0
+537,ID-763581853,Jill Mendoza,Freddy’s Stove,40,0
+538,ID-599739188,Jennifer Conway,Munchtastic,35,0
+539,ID-506937919,Jennifer Mann,Eatery Hotspot,20,1
+540,ID-268350267,Eric Nelson,Feast Lounge,23,0
+541,ID-925380566,Patrick Garcia MD,Pancake World,36,0
+542,ID-585702827,Amy Owens,Paterro's Kitchen,29,0
+543,ID-126913674,Nathan Coleman,Pancake World,36,0
+544,ID-532510435,Douglas Wang,Deli Divine,32,0
+545,ID-720691688,Michael Ball,Deli Feast,26,0
+546,ID-565960784,David Barrett,Bangalore Spices,31,0
+547,ID-337610822,Ronald Alvarado,Cuisine Wave,33,0
+548,ID-833142906,Debra Williamson,Deli Feast,26,0
+549,ID-648561917,Melissa Ramsey,Bangalore Spices,31,0
+550,ID-849084827,Desiree Jones,Feast Lounge,23,0
+551,ID-529415022,Michael Espinoza,Bistro Captain,27,0
+552,ID-705199595,Jo Singleton,Veganic Corner,7,1
+553,ID-678473650,Sandra Mueller,Pancake World,36,0
+554,ID-329607545,William Watson,Bangalore Spices,31,0
+555,ID-936391914,Timothy Reeves,Bistro Captain,27,0
+556,ID-554519273,Cathy Robles,Greenanic Smoothies,21,0
+557,ID-604432185,Laura Nguyen,Island Grill,39,0
+558,ID-811676954,Rhonda Allen,Menu Gusto,7,1
+559,ID-808708001,Rachael Hayden,Deli Divine,32,0
+560,ID-525721707,Lauren Miller,Green Curry,20,0
+561,ID-572901065,Ashley Lee,Cuisine Wave,33,0
+562,ID-076829026,Linda Wilson,Eatery Hotspot,20,1
+563,ID-295351525,Kevin Cantu DDS,Green Curry,20,0
+564,ID-728275202,Jason Lucas,Bistro Captain,27,0
+565,ID-474243074,Danielle Lynch,Green Curry,20,1
+566,ID-131636124,Laura Glenn,Green Curry,20,0
+567,ID-563811654,David Wilson,Grub Chef,14,1
+568,ID-454571992,Edward Collins,Bistro Bazaar,25,0
+569,ID-564103480,David Harrington,Kitchen Takeout,19,1
+570,ID-247107256,Adrienne Gallagher,El Pirata Porch,7,1
+571,ID-314819476,Robert Brown,Cuisine Wave,33,0
+572,ID-742290314,Madison Butler,Street Deli,17,0
+573,ID-179167901,Emily Miller,Feast Lounge,23,0
+574,ID-004226231,James Carroll,Kitchen Sensation,9,1
+575,ID-160644588,Amanda Wright,Bistro Bazaar,25,0
+576,ID-191819406,Hannah Blanchard,Kitchen Sensation,9,1
+577,ID-201382849,John Nelson,Eatery Hotspot,20,0
+578,ID-188659112,Christina Reynolds,Bistro Bazaar,25,0
+579,ID-131497992,Tony Jarvis,Munch Grill,17,1
+580,ID-011700733,Dana Velazquez,El Pirata Porch,7,1
+581,ID-587107313,Max Willis,Bistro Captain,27,0
+582,ID-550429185,Angel Mullen,Street Deli,17,0
+583,ID-401868939,Patrick Ingram,Kitchen Takeout,19,0
+584,ID-384332257,Erin Mercado MD,Feast Lounge,23,0
+585,ID-763231562,Kenneth Green,Grub Chef,14,0
+586,ID-460921070,Grace Macdonald,Masala,23,0
+587,ID-785593144,Megan Taylor,Eatery Hotspot,20,0
+588,ID-898126660,Scott Gomez,Grassfed Grill,28,0
+589,ID-584596864,Jesse Perry,Green Curry,20,1
+590,ID-521362498,Kathy Santos,Menu Gusto,7,1
+591,ID-944978486,Patrick Cooper,Eateryworks,31,0
+592,ID-334697060,James Smith,Bistro Captain,27,0
+593,ID-475949393,Adam Wells,Kitchen Sensation,9,1
+594,ID-582721894,Joseph Mason,El Pirata Porch,7,1
+595,ID-342232134,Louis Nguyen,Flavoroso,10,1
+596,ID-361820793,Victoria Tucker,Grassfed Grill,28,0
+597,ID-117747958,Ashley Mckinney,Munch Grill,17,0
+598,ID-077855899,Samantha Rivera,Munch Grill,17,0
+599,ID-529867127,Joshua Wagner,Xin Chao Vietnamese Restaurant,31,0
+600,ID-761494909,Mrs. Briana Strong MD,Island Grill,39,0
+601,ID-540712210,Angela Lewis,Grub Chef,14,0
+602,ID-131962119,Annette Cain,Mediterra Seafood,34,0
+603,ID-859600381,Cory Bray,Deli Divine,32,0
+604,ID-212510091,Shane Edwards,Deli Feast,26,0
+605,ID-498338229,Lisa Lee,Spicella Spanish Kitchen,36,0
+606,ID-644830223,Judith Simmons,Mediterra Seafood,34,0
+607,ID-556311872,Samantha Wilkinson,Munchtastic,35,0
+608,ID-795355867,Collin Foster,Feast Palace,38,0
+609,ID-400687150,Ryan Davis,Sweet Escape,5,0
+610,ID-102461637,William Payne,Feast Lounge,23,0
+611,ID-001095185,Ronald Gonzalez,Eateryworks,31,0
+612,ID-572644849,Mrs. Samantha Kennedy,Kitchen Takeout,19,1
+613,ID-782982255,Richard Reid,Island Grill,39,0
+614,ID-562706239,Caroline Webb,Freddy’s Stove,40,0
+615,ID-190039502,Michelle Sandoval,Menu Feed,9,1
+616,ID-795783605,John Johns,Menu Feed,9,1
+617,ID-048582034,Jeffrey Gordon,Grub Chef,14,0
+618,ID-821463881,Lauren Martin,Munch Grill,17,0
+619,ID-038224239,Linda Nguyen,El Pirata Porch,7,1
+620,ID-789829584,Deanna Blake,Bangalore Spices,31,0
+621,ID-574307604,Stephen Baker,Bistroporium,3,0
+622,ID-499111819,Brian Gilbert,Eateryworks,31,0
+623,ID-800859696,Shelby Johnson,Street Deli,17,0
+624,ID-514112338,Kenneth Wiggins,Bistro Captain,27,1
+625,ID-323132718,Charles White,Salty Squid,22,0
+626,ID-948432200,Derek Moore,Cuisine Wave,33,0
+627,ID-017974065,Michael Gaines,Cuisine Wave,33,0
+628,ID-711964984,Morgan Goodwin,Eateryworks,31,0
+629,ID-370195216,Amy Fox,Bangalore Spices,31,0
+630,ID-131196225,Randy Moreno,Munchtastic,35,0
+631,ID-513238540,Julie Lopez,Xin Chao Vietnamese Restaurant,31,0
+632,ID-189860450,Jenna Brewer,Bangalore Spices,31,0
+633,ID-011695264,Angela Charles,Feast Lounge,23,0
+634,ID-560132623,James Brown,Mediterra Seafood,34,0
+635,ID-172997024,Scott Hunt,Pancake World,36,0
+636,ID-398165883,Sandra Wiggins,Munchtastic,35,0
+637,ID-522022405,Austin Rivera,Green Curry,20,0
+638,ID-800958220,Emily Jimenez,Deli Divine,32,0
+639,ID-800931343,Jeffrey Willis,Menu Feed,9,1
+640,ID-131084414,Carolyn Hall,Veganic Corner,7,1
+641,ID-736655344,Daniel Morgan,El Pirata Porch,7,1
+642,ID-552593633,Kathryn Ponce,Grandma’s Sweets,14,1
+643,ID-440904773,Ariana Henderson,Cuisine Street,17,0
+644,ID-328630941,Angela Sanchez,Sweet Escape,5,0
+645,ID-700643191,Ariel Hamilton,Bangalore Spices,31,0
+646,ID-506068899,Dustin Randall,Bistro Bazaar,25,0
+647,ID-713693485,Vickie Powers,Bangalore Spices,31,0
+648,ID-401949468,Lisa Baker,Island Grill,39,0
+649,ID-255757862,Jason Smith,Veganic Corner,7,1
+650,ID-723837796,Dawn Wagner,Kitchen Sensation,9,1
+651,ID-531701505,Jeffery Simmons,El Pirata Porch,7,1
+652,ID-165962536,John Bennett,Munch Grill,17,0
+653,ID-876275429,John Thompson,Grassfed Grill,28,0
+654,ID-220231145,James Martinez,Deli Divine,32,0
+655,ID-800123766,Sherry Wilkins,Grub Chef,14,0
+656,ID-708478694,Philip Black,Deli Feast,26,0
+657,ID-530781999,Cynthia Maddox,Munchies,40,0
+658,ID-703984139,Matthew Wolfe,Eatery Hotspot,20,0
+659,ID-585098477,Christopher Stafford,Xin Chao Vietnamese Restaurant,31,0
+660,ID-666805988,Rachel Taylor,Street Deli,17,0
+661,ID-009369426,Brandon Johnson MD,Feast Lounge,23,0
+662,ID-555752662,Melanie Woods,Veganic Corner,7,1
+663,ID-800212615,Jonathan Schmidt,Salty Squid,22,0
+664,ID-800086459,Shannon Reed,Grub Chef,14,0
+665,ID-318142862,Elizabeth Romero,Bangalore Spices,31,0
+666,ID-390661325,Cynthia Snyder,Pancake World,36,0
+667,ID-747470017,Megan Sanford,Grub Chef,14,0
+668,ID-646595077,Lynn Peck,Menu Feed,9,1
+669,ID-787956100,Mr. Lawrence Kelly,Masala,23,0
+670,ID-845060085,Teresa Long,Flavoroso,10,1
+671,ID-422329369,Mason Allen,Grandma’s Sweets,14,0
+672,ID-554410510,Devin Harvey,Feast Lounge,23,0
+673,ID-083270255,Katrina Smith,Green Curry,20,0
+674,ID-131362260,Michael Ortiz,Masala,23,0
+675,ID-006366073,Heather Blair,Deli Divine,32,0
+676,ID-020824273,Erica Sutton,Grassfed Grill,28,0
+677,ID-549871116,Daniel Simpson,Kitchen Sensation,9,1
+678,ID-602589413,Craig Giles,Munch Grill,17,0
+679,ID-020780018,Casey Matthews,Bistro Bazaar,25,0
+680,ID-820195182,Gabriela Hall,Veganic Corner,7,1
+681,ID-390047700,Heather Ortiz,Whispering Bamboo,4,0
+682,ID-138372811,David Collins,Masala,23,0
+683,ID-054216087,Anna Montgomery,Bistro Bazaar,25,0
+684,ID-059755300,Tammy Owens,Kitchen Sensation,9,1
+685,ID-429295365,Andrew Bennett,Munchtastic,35,0
+686,ID-588233431,Deborah Kim,Eatery Hotspot,20,0
+687,ID-480441969,Kristina Stephenson,Munchtastic,35,0
+688,ID-517147225,Kevin Hernandez,Spicella Spanish Kitchen,36,0
+689,ID-119112740,Valerie Hardy,Street Deli,17,0
+690,ID-997319161,Joel Harris,Feast Lounge,23,0
+691,ID-581969615,Lori Lowe,Pancake World,36,0
+692,ID-567685923,Erin Bennett,Grassfed Grill,28,0
+693,ID-550210498,Taylor Walters,Deli Divine,32,0
+694,ID-030834535,Justin Mcbride,Greenanic Smoothies,21,0
+695,ID-011670202,David Sparks,Kitchen Takeout,19,0
+696,ID-696549487,Jeffrey Santiago,Spicella Spanish Kitchen,36,0
+697,ID-953137203,Christopher Duncan,Salty Squid,22,0
+698,ID-922110848,Denise Manning,Munchies,40,0
+699,ID-424694043,Katherine Ramirez,Bistro Captain,27,0
+700,ID-759489021,Robert Lindsey,Eatery Hotspot,20,0
+701,ID-548960247,David Diaz,Munchies,40,0
+702,ID-586297559,Frank Huang,Bistroporium,3,0
+703,ID-590607938,Mary Smith,Bistro Bazaar,25,0
+704,ID-041078695,Shawn Myers,Menu Gusto,7,1
+705,ID-762751880,Michelle Tucker,Salty Squid,22,0
+706,ID-131357800,Mark Cobb,Grandma’s Sweets,14,0
+707,ID-327573651,Brenda King,Mediterra Seafood,34,0
+708,ID-501376797,Scott Townsend,Salty Squid,22,0
+709,ID-522563164,Henry Morrow,Veganic Corner,7,1
+710,ID-550422940,Billy Gill,Deli Feast,26,0
+711,ID-587594192,Renee Moreno,Menu Gusto,7,1
+712,ID-011629197,Adrian Brown,Green Curry,20,0
+713,ID-565475915,Laura Cooper,Munch Grill,17,0
+714,ID-528616736,Patricia Hill,Grub lord,33,0
+715,ID-596196932,Joshua Jones,Street Deli,17,0
+716,ID-940649581,Kelly Williams,Deli Divine,32,0
+717,ID-011678350,Laura Gonzalez,Bistroporium,3,0
+718,ID-504486756,Nicholas Clark,Cuisine Wave,33,0
+719,ID-568361567,Tracy Ortega,Menu Gusto,7,1
+720,ID-131837487,Crystal Watson,Munchtastic,35,0
+721,ID-854214844,Dr. Lance Henderson,Spicella Spanish Kitchen,36,0
+722,ID-469414048,James Brooks,Flavoroso,10,0
+723,ID-272420946,Shaun Noble,Eatery Hotspot,20,0
+724,ID-543754952,Bryan James,Grandma’s Sweets,14,0
+725,ID-971434253,Colleen Mcmillan,Menu Feed,9,1
+726,ID-755778149,Julie Mendoza,Feast Palace,38,0
+727,ID-574795066,Sean Stephens,Cuisine Wave,33,0
+728,ID-755976288,Christine Cantrell,Bangalore Spices,31,0
+729,ID-579839404,James Lewis,Munch Grill,17,0
+730,ID-280275088,Samantha Gonzales,Munch Grill,17,0
+731,ID-099653845,Catherine Bryant,Grandma’s Sweets,14,0
+732,ID-537597059,Natasha Davis,Eateryworks,31,0
+733,ID-974112352,Nancy Conrad,Paterro's Kitchen,29,0
+734,ID-008522873,Zachary King,Grandma’s Sweets,14,0
+735,ID-761460002,Mark Mason,Kitchen Sensation,9,1
+736,ID-011819593,Jo Wood,Spicella Spanish Kitchen,36,0
+737,ID-462337848,Edward Zhang,Deli Feast,26,0
+738,ID-591640010,Daniel Ramsey,Bangalore Spices,31,0
+739,ID-005473856,David Moses,Spicella Spanish Kitchen,36,0
+740,ID-403416586,Megan Stout,Salty Squid,22,0
+741,ID-763137069,Mark Howard,Munchies,40,0
+742,ID-405283540,Ashley Marshall,Munch Grill,17,0
+743,ID-549930756,Mark Stone,Veganic Corner,7,1
+744,ID-758818842,Diana Thomas,El Pirata Porch,7,1
+745,ID-448007105,Amanda Perez,Paterro's Kitchen,29,0
+746,ID-700355282,Frederick Lutz,Eateryworks,31,0
+747,ID-038428339,Gregg Lynch,Feast Palace,38,0
+748,ID-038561196,Joshua Murphy,Eatery Hotspot,20,1
+749,ID-475482416,Ashley Warner,Eatery Hotspot,20,0
+750,ID-523964407,Scott Mason,Sweet Escape,5,0
+751,ID-542980554,Maria Moore,Salty Squid,22,0
+752,ID-072460986,Christina Perry,Mediterra Seafood,34,0
+753,ID-726346830,Andrew Rush,Masala,23,0
+754,ID-131835737,David Sherman,Eateryworks,31,0
+755,ID-131664957,Holly Clark,Xin Chao Vietnamese Restaurant,31,0
+756,ID-289214310,Christopher Rowe,Munchtastic,35,0
+757,ID-061833673,Gary Cruz,Green Curry,20,0
+758,ID-800556276,Amber Mejia,Grassfed Grill,28,0
+759,ID-043109773,Laura Lee,Bangalore Spices,31,0
+760,ID-608876315,Amy Hawkins,Kitchen Sensation,9,1
+761,ID-767214947,Gina Mitchell,Grassfed Grill,28,0
+762,ID-557897276,Tracy Walters,Greenanic Smoothies,21,0
+763,ID-238785239,Zachary Hicks,Freddy’s Stove,40,0
+764,ID-535498603,Sheryl Reynolds,Island Grill,39,0
+765,ID-011269073,Jennifer Jones,Greenanic Smoothies,21,0
+766,ID-534898620,Michael Palmer,Cuisine Street,17,1
+767,ID-508045551,Mark Perez,Veganic Corner,7,1
+768,ID-672050513,Caleb Brown,Munchtastic,35,0
+769,ID-759922443,Anna Booker MD,Feast Lounge,23,0
+770,ID-505447228,Timothy Turner,Greenanic Smoothies,21,0
+771,ID-265560229,Jeffrey Roach,Cuisine Street,17,0
+772,ID-273560036,Sarah Bernard,Whispering Bamboo,4,0
+773,ID-564218606,Cynthia Rivera,Kitchen Sensation,9,1
+774,ID-599906712,Carla Cooke,Bistro Captain,27,0
+775,ID-051492719,Jill Sharp,Green Curry,20,0
+776,ID-885986125,Noah Mercer,Grassfed Grill,28,0
+777,ID-289626143,Amanda Mooney,Salty Squid,22,0
+778,ID-408058378,Brendan Gutierrez,Bistro Bazaar,25,0
+779,ID-544209089,Eileen Jackson,Grandma’s Sweets,14,0
+780,ID-001284795,Laura Miles,Cuisine Wave,33,0
+781,ID-800654626,Nancy Gonzalez,Deli Divine,32,0
+782,ID-038056823,Stacy Smith,Salty Squid,22,0
+783,ID-231064992,Joshua Hinton,Bistro Bazaar,25,0
+784,ID-052435807,Michael Weaver,El Pirata Porch,7,1
+785,ID-514585816,Matthew Yoder,Bistroporium,3,0
+786,ID-596017972,Gary Daniels,Eatery Hotspot,20,0
+787,ID-797397937,Rebecca Robles,Whispering Bamboo,4,0
+788,ID-957258937,Brian Gray,Bistro Bazaar,25,0
+789,ID-400323953,Cynthia Noble,Munchies,40,0
+790,ID-612165100,Martin Martin,Munch Grill,17,0
+791,ID-494530624,Kenneth Martinez,Kitchen Takeout,19,0
+792,ID-064916588,Thomas Calhoun,Feast Lounge,23,0
+793,ID-701848990,Gwendolyn Wallace,Paterro's Kitchen,29,0
+794,ID-126206632,Linda Hall,Munch Grill,17,1
+795,ID-300619853,Becky Berry,Grub lord,33,0
+796,ID-235983445,Robert Hoffman,Deli Feast,26,0
+797,ID-390690249,Rachel Hull,Pancake World,36,0
+798,ID-437009635,Kristin Peters,Masala,23,0
+799,ID-131084071,Stanley Jones,Flavoroso,10,1
+800,ID-672589399,Kelsey Bautista,Sweet Escape,5,0
+801,ID-018803602,Donna Cox,Feast Palace,38,0
+802,ID-757993855,Brett Smith,Flavoroso,10,1
+803,ID-813229918,Rachel Mitchell,Bangalore Spices,31,0
+804,ID-540567522,Joshua Berry,Pancake World,36,0
+805,ID-041290247,Jacqueline Boyd,Feast Lounge,23,0
+806,ID-870901300,Sarah Valencia,Veganic Corner,7,1
+807,ID-008342543,Dawn Gates,Feast Lounge,23,0
+808,ID-765401057,David Haynes,Grandma’s Sweets,14,0
+809,ID-674899431,Brandon May,Island Grill,39,0
+810,ID-587602393,Kevin Fox,Eateryworks,31,0
+811,ID-625131356,Benjamin Davis,Kitchen Sensation,9,1
+812,ID-011315884,Brian Knight,Grub Chef,14,0
+813,ID-011125289,Alexa Schneider,Veganic Corner,7,1
+814,ID-735407600,Sandra Chan,Green Curry,20,0
+815,ID-041361752,Steven Maddox,Sweet Escape,5,0
+816,ID-431700431,Bryan Campbell Jr.,Pancake World,36,0
+817,ID-020073956,Matthew Sanchez,Greenanic Smoothies,21,0
+818,ID-858925370,Shannon Brown,Sweet Escape,5,0
+819,ID-507886884,Alan Fox,Kitchen Takeout,19,0
+820,ID-018305047,Jennifer Green,Grub lord,33,0
+821,ID-390746877,Steven Robinson,Veganic Corner,7,0
+822,ID-055929530,Isaac Oconnor,Kitchen Sensation,9,1
+823,ID-800677708,Elizabeth Butler,Mediterra Seafood,34,0
+824,ID-604424753,Sarah Dickson,Cuisine Street,17,0
+825,ID-508885828,Suzanne Nicholson,Sweet Escape,5,1
+826,ID-696036083,Barbara Dunn,Bistroporium,3,0
+827,ID-584775465,Jonathan Branch,Kitchen Takeout,19,0
+828,ID-494623365,Alyssa Smith,Deli Divine,32,0
+829,ID-800378106,Julia Scott,Grub Chef,14,0
+830,ID-515726711,Robert Johnson,El Pirata Porch,7,1
+831,ID-412138499,Chelsea Smith,Cuisine Street,17,0
+832,ID-475177508,Brooke Beasley,Grub Chef,14,0
+833,ID-000131602,Frank Perez,Kitchen Takeout,19,0
+834,ID-958331999,Jocelyn Hall,Whispering Bamboo,4,0
+835,ID-690267574,Lisa Brady,Munchtastic,35,0
+836,ID-752309872,Brittany Santiago,Whispering Bamboo,4,1
+837,ID-570962861,Melissa Ramirez,Deli Divine,32,0
+838,ID-024553451,Judy Gonzalez,Freddy’s Stove,40,0
+839,ID-571479396,Bryan Martinez,Munch Grill,17,0
+840,ID-013388877,Brandon Martinez,Green Curry,20,0
+841,ID-027417298,Cheryl Stevenson,Bangalore Spices,31,0
+842,ID-763044737,Samantha Moss,Masala,23,0
+843,ID-892193643,Hunter Ewing,Cuisine Street,17,0
+844,ID-713562264,Megan Green,Grandma’s Sweets,14,0
+845,ID-493103079,Ashley Mcbride,Xin Chao Vietnamese Restaurant,31,0
+846,ID-363373032,Justin Jordan,Pancake World,36,0
+847,ID-706655565,Katie Weaver,Mediterra Seafood,34,0
+848,ID-513141443,Karen Torres,Masala,23,0
+849,ID-131141343,Laura Aguirre,Greenanic Smoothies,21,0
+850,ID-800752616,Erika Bass,Menu Gusto,7,1
+851,ID-700903553,Kristen Massey,Grassfed Grill,28,0
+852,ID-386563341,Nicole Wright,Kitchen Sensation,9,0
+853,ID-564215732,Antonio Macdonald,Flavoroso,10,1
+854,ID-402758735,Christian Moreno,Munchies,40,0
+855,ID-572773293,Sherri Taylor,Bistroporium,3,0
+856,ID-765971898,Jesse Hernandez,Bistroporium,3,0
+857,ID-269980265,Gwendolyn English,Cuisine Street,17,0
+858,ID-542424478,Corey Morgan,Feast Palace,38,0
+859,ID-719125825,Tammy Clarke,Green Curry,20,0
+860,ID-271401870,William Krueger,Bistro Bazaar,25,0
+861,ID-512440557,Cheryl Norman,Munch Grill,17,1
+862,ID-511168371,Sean Bass,Bistro Bazaar,25,0
+863,ID-553409157,Brittany Adams,Eateryworks,31,0
+864,ID-242603791,Kimberly Wood,Cuisine Wave,33,0
+865,ID-078978595,Lisa Owens,Pancake World,36,0
+866,ID-566064043,Gina Greer,Kitchen Takeout,19,0
+867,ID-499611627,Erica Mcdonald,Street Deli,17,0
+868,ID-850424144,Jamie Thomas,Salty Squid,22,0
+869,ID-984034640,Brandon Chavez,Xin Chao Vietnamese Restaurant,31,0
+870,ID-800932150,Mark Harris,Kitchen Takeout,19,0
+871,ID-519099708,Zachary Parks,Masala,23,0
+872,ID-547809597,Andrew Glover,Grub lord,33,0
+873,ID-782238062,Joseph Patel,Flavoroso,10,1
+874,ID-922228368,Tammy Brown,Street Deli,17,0
+875,ID-025161891,Kelly Castaneda,Deli Feast,26,0
+876,ID-004651001,Steven Guzman,Street Deli,17,0
+877,ID-711344980,Anthony Wilson,Deli Divine,32,0
+878,ID-071515506,Deanna Garcia,Island Grill,39,0
+879,ID-800555683,Richard Mathis,Island Grill,39,0
+880,ID-902228087,Elizabeth Evans,Spicella Spanish Kitchen,36,0
+881,ID-845214102,Nicholas Haas,Masala,23,0
+882,ID-604107500,James Martin,Island Grill,39,0
+883,ID-541941723,Catherine Carroll,Menu Gusto,7,1
+884,ID-011550738,Stephen Fox,Bistro Captain,27,0
+885,ID-518800970,Amanda Weber,Grandma’s Sweets,14,0
+886,ID-036544807,Lindsey Gordon,Bistroporium,3,0
+887,ID-477181541,Amanda Hardy,Grub lord,33,0
+888,ID-131522598,Tracy Tyler,El Pirata Porch,7,1
+889,ID-422203381,Joseph Farmer,Deli Divine,32,0
+890,ID-596692239,Jordan Decker,Kitchen Sensation,9,1
+891,ID-138051155,Laura Zimmerman,Grandma’s Sweets,14,0
+892,ID-254899992,Daniel Bass,Green Curry,20,0
+893,ID-131725660,Diana Hernandez,Grub lord,33,0
+894,ID-012193100,Diana Moore,Grub lord,33,0
+895,ID-700538787,Anita Evans,Menu Gusto,7,1
+896,ID-800797346,Cynthia Simmons,Munchtastic,35,0
+897,ID-800484304,Cheryl Berry,Munchtastic,35,0
+898,ID-684018035,Christopher May,Grandma’s Sweets,14,0
+899,ID-131486763,Alexis Haynes,Sweet Escape,5,0
+900,ID-593799239,Erin Ryan,Menu Gusto,7,1
+901,ID-597501174,Mr. Joseph Harris,Grassfed Grill,28,0
+902,ID-720937031,John Hernandez,Green Curry,20,0
+903,ID-733286132,George Hill,Menu Feed,9,1
+904,ID-131202190,Katherine Lopez DDS,Bistroporium,3,0
+905,ID-779348898,Kaitlyn Malone,Munchtastic,35,0
+906,ID-649260048,Shannon Bryan,Xin Chao Vietnamese Restaurant,31,0
+907,ID-788696122,Danielle Wells,Cuisine Wave,33,0
+908,ID-604420781,Lance Haynes,Bistro Bazaar,25,0
+909,ID-748000512,Jason Brown,Masala,23,0
+910,ID-533411568,Kevin Daniel,Greenanic Smoothies,21,0
+911,ID-168240549,Kelly Medina,Veganic Corner,7,1
+912,ID-040183696,Amy Hawkins,Cuisine Street,17,1
+913,ID-800267307,Carolyn Moore,Bangalore Spices,31,0
+914,ID-559340792,Jessica Dickson,Greenanic Smoothies,21,0
+915,ID-635594968,Timothy Odom,Masala,23,0
+916,ID-673096197,Henry Peterson,Veganic Corner,7,1
+917,ID-888770102,Jonathan Benitez,Eatery Hotspot,20,0
+918,ID-659558261,Mr. David Jones,Deli Divine,32,0
+919,ID-729361968,Amy Quinn,Deli Divine,32,0
+920,ID-298051992,Kelsey Huang,Menu Feed,9,1
+921,ID-341525309,Kerry Stone,Deli Feast,26,0
+922,ID-761987153,Mikayla Palmer,Feast Lounge,23,0
+923,ID-018269372,Eric Parrish,Bangalore Spices,31,0
+924,ID-020398160,Donald Owens,Kitchen Sensation,9,1
+925,ID-761495855,Brandi Hernandez,Veganic Corner,7,1
+926,ID-265176285,Kristen Ray,Whispering Bamboo,4,0
+927,ID-224530381,Albert Farley,Cuisine Wave,33,0
+928,ID-719581438,Caitlin Soto,Pancake World,36,0
+929,ID-094943939,Steve Jones,Xin Chao Vietnamese Restaurant,31,0
+930,ID-589813224,Melissa Flores,Salty Squid,22,0
+931,ID-547776112,Stacey Davis,Bistroporium,3,0
+932,ID-457967380,Robert Marshall Jr.,Grub Chef,14,0
+933,ID-482966541,Jacob Gomez,Menu Feed,9,1
+934,ID-837264175,Christian Andrews,Greenanic Smoothies,21,0
+935,ID-537741450,Benjamin Cortez,Kitchen Takeout,19,0
+936,ID-458053625,Melissa Jones,Eateryworks,31,0
+937,ID-019735366,Joyce Watson,Munchies,40,0
+938,ID-039064756,Erik Mullen,Green Curry,20,0
+939,ID-265317767,Eric Moore,Island Grill,39,0
+940,ID-582878539,April Moody,Pancake World,36,0
+941,ID-596815615,Sherry Mccoy,Deli Feast,26,0
+942,ID-028734095,William Thompson,Xin Chao Vietnamese Restaurant,31,0
+943,ID-131489377,Shannon Durham,Munch Grill,17,0
+944,ID-676114213,Betty Hayes,Whispering Bamboo,4,0
+945,ID-591680508,Samantha Powell,Spicella Spanish Kitchen,36,0
+946,ID-109409739,Connie Jacobs,Grub lord,33,0
+947,ID-018530367,Adam Thomas,Munch Grill,17,0
+948,ID-415951183,Shawn Ramos,Veganic Corner,7,1
+949,ID-011623505,William Thomas V,Freddy’s Stove,40,0
+950,ID-800841507,Heather Gibson,Street Deli,17,0
+951,ID-320577842,Heather Frank,Masala,23,1
+952,ID-152927992,Linda Cain,Spicella Spanish Kitchen,36,0
+953,ID-189206435,George Smith,Menu Gusto,7,1
+954,ID-800880098,Kara Mitchell,Munchies,40,0
+955,ID-020790218,Monica Wise,Kitchen Takeout,19,0
+956,ID-763655646,John Larson,Bistro Captain,27,0
+957,ID-621100839,Max Sheppard,Eatery Hotspot,20,0
+958,ID-116802749,Catherine Alvarado,Whispering Bamboo,4,0
+959,ID-604597412,Samuel Holmes,Deli Feast,26,0
+960,ID-285048669,John Pineda,Grub Chef,14,0
+961,ID-518053489,Matthew Ortiz,Bangalore Spices,31,0
+962,ID-716324967,James Marsh,Menu Feed,9,1
+963,ID-498875854,Mathew Ramirez,Kitchen Sensation,9,1
+964,ID-462074369,Mark Ellis,Munch Grill,17,0
+965,ID-538376001,Jennifer Miller,Bistro Bazaar,25,0
+966,ID-245219210,Patricia Mitchell,Spicella Spanish Kitchen,36,0
+967,ID-309871095,Sandra Hall,Freddy’s Stove,40,0
+968,ID-203336258,Robert Bryan,Pancake World,36,0
+969,ID-800409671,Shelley Cameron,Cuisine Street,17,0
+970,ID-759347312,Matthew Ruiz,Eatery Hotspot,20,0
+971,ID-716440334,Bryce Calderon,Sweet Escape,5,0
+972,ID-408359067,Tom Smith DDS,Munchies,40,0
+973,ID-278006543,Michelle Meyers,Eatery Hotspot,20,0
+974,ID-318299277,Terry Key,Paterro's Kitchen,29,1
+975,ID-800587578,Joseph Sutton,Green Curry,20,0
+976,ID-813868497,Jose Clark,Kitchen Takeout,19,0
+977,ID-900518931,Thomas Bell,Spicella Spanish Kitchen,36,0
+978,ID-304806230,Anthony Peterson,Munch Grill,17,0
+979,ID-620365543,John Brown,Kitchen Takeout,19,0
+980,ID-495303102,Paula Porter,Menu Feed,9,1
+981,ID-452915995,Jasmine Davis,Cuisine Wave,33,0
+982,ID-502962030,Jade Gardner,Grandma’s Sweets,14,0
+983,ID-075350870,Michelle Baker,Munchtastic,35,0
+984,ID-971692578,Dustin Joseph,Island Grill,39,0
+985,ID-718484785,Robert Henry,Kitchen Takeout,19,0
+986,ID-058325878,Tammy Johnson,El Pirata Porch,7,1
+987,ID-661125412,Jeffery Pierce,Grassfed Grill,28,0
+988,ID-258010319,Jeremiah Flores,Munch Grill,17,0
+989,ID-131400079,Michelle Hudson,Mediterra Seafood,34,0
+990,ID-575377018,Cindy Grant,Feast Palace,38,0
+991,ID-491315628,Alexander Mclean,Eateryworks,31,0
+992,ID-018183122,Karen Price,Bistro Bazaar,25,0
+993,ID-411812186,Cynthia Moreno,Xin Chao Vietnamese Restaurant,31,0
+994,ID-800523090,Daniel Craig,Freddy’s Stove,40,0
+995,ID-375563356,Kevin Barajas,Island Grill,39,0
+996,ID-011732912,Kathleen Fowler,El Pirata Porch,7,1
+997,ID-131062236,Jennifer Becker,Mediterra Seafood,34,0
+998,ID-793828318,Thomas Ramirez,Bistro Captain,27,0
+999,ID-704671101,Kyle Goodwin,Eateryworks,31,0
