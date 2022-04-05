@@ -1,0 +1,95 @@
+<h1>Welcome to SaladStop!</h1>
+<h2>Please indicate your preferences.</h2>
+<form action="/" method = "POST">
+<table border="1">
+<thead>
+<tr><td colspan="3", align="center">Nutritional Preferences</td></tr>
+<tr>
+    <th></th>
+    <th>Min</th>
+    <th colspan="1">Max</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+    <td>Calories</td>
+    <td><input type="text" name="min_cal"></td>
+    <td><input type="text" name="max_cal"></td>
+</tr>
+<tr>
+    <td>Carbohydrates</td>
+    <td><input type="text" name="min_carb"></td>
+    <td><input type="text" name="max_carb"></td>
+</tr>
+<tr>
+    <td>Proteins</td>
+    <td><input type="text" name="min_pro"></td>
+    <td><input type="text" name="max_pro"></td>
+</tr>
+<tr>
+    <td>Fats</td>
+    <td><input type="text" name="min_fat"></td>
+    <td><input type="text" name="max_fat"></td>
+</tr>
+<tr>
+    <td>Sugar</td>
+    <td><input type="text" name="min_sug"></td>
+    <td><input type="text" name="max_sug"></td>
+</tr>
+<tr>
+    <td>Sodium</td>
+    <td><input type="text" name="min_sod"></td>
+    <td><input type="text" name="max_sod"></td>
+</tr>
+<tr><td colspan="3", align="center">Dietary Restrictions</td></tr>
+<tr>
+    <th></th>
+    <th>Yes</th>
+    <th colspan="1">No</th>
+</tr>
+<tr>
+    <td>I am Vegan</td>
+    <td colspan="1"><input type="checkbox" id="Vegan" name="dietary_req" value="1"></td>
+    <td colspan="1"><input type="checkbox" id="Vegan" name="dietary_req" value="0"></td>
+</tr>
+<tr>
+    <td>I am Vegetarian</td>
+    <td colspan="1"><input type="checkbox" id="Vegetarian" name="dietary_req" value="1"></td>
+    <td colspan="1"><input type="checkbox" id="Vegetarian" name="dietary_req" value="0"></td>
+</tr>
+<tr>
+    <td>I want Gluten-Free options only</td>
+    <td colspan="1"><input type="checkbox" id="Gluten" name="dietary_req" value="1"></td>
+    <td colspan="1"><input type="checkbox" id="Gluten" name="dietary_req" value="0"></td>
+</tr>
+<tr>
+    <td>I cannot take dairy</td>
+    <td colspan="1"><input type="checkbox" id="Dairy" name="dietary_req" value="1"></td>
+    <td colspan="1"><input type="checkbox" id="Dairy" name="dietary_req" value="0"></td>
+</tr>
+<tr>
+    <td>I am allergic to nuts</td>
+    <td colspan="1"><input type="checkbox" id="Nuts" name="dietary_req" value="1"></td>
+    <td colspan="1"><input type="checkbox" id="Nuts" name="dietary_req" value="0"></td>
+</tr>
+<tr>
+    <td>I cannot take spice</td>
+    <td colspan="1"><input type="checkbox" id="Spice" name="dietary_req" value="1"></td>
+    <td colspan="1"><input type="checkbox" id="Spice" name="dietary_req" value="0"></td>
+</tr>
+<tr><td colspan="3", align="center">Cost Preferences</td></tr>
+<tr>
+    <td>How many premium toppings would you like to have?</td>
+    <td colspan="2"><input type="text" name="Max_Premium_Toppings"></td>
+</tr>
+<tr>
+    <td>What's your budget in SGD? </td>
+    <td colspan="2"><input type="text" name="Budget"></td>
+</tr>
+<tr>
+    <td colspan="3", align = "center"><input type="submit" value="Submit Preferences"></td>
+        </tr>
+</tbody>
+</table>
+</form>
