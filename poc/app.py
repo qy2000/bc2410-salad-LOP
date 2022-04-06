@@ -1,7 +1,10 @@
 from flask import Flask, render_template, request, redirect, url_for
 import csv
 import utils.linear as linear_model
+import utils.stochastic as stochastic_model
 import numpy as np
+import pandas as pd
+import random
 
 app = Flask(__name__)
 data1 = linear_model.data_preparation()
@@ -55,6 +58,49 @@ def homepage():
         return render_template("recommendations.html",user_input=user_input,output=[ingredient_arr, base, round(total_cost,2), sum(total)])
     else:
         return render_template("saladstop.html")
+
+
+@app.route('/stochastic', methods=['GET','POST'])
+def stochasticpage():
+    if request.method == 'POST':
+        Demand_data = pd.read_csv(request.files['demand'])
+        data1 = pd.read_csv(request.files['menu'])
+        d = Demand_data.set_index('Date').T
+
+        Param_data = pd.DataFrame().assign(Ingredient=data1['Ingredient'], COGS=data1['COGS_per_serving'], Ingredient_Type=data1['Ingredient_type'], Additional_Price_For_Premium_Toppings=data1['Price'])
+        Param_data['Price'] = None
+        Param_data['Space'] = None
+
+        for i in range(Param_data.shape[0]):
+            if Param_data["Ingredient_Type"][i] in ["Standard Base", "Wrap", "Grain Bowl", "Standard Topping", "Dressing (Western)", "Dressing (Asian)"]:
+                Param_data["Price"][i] = 0.99
+            elif Param_data["Ingredient_Type"][i] in ["Premium Base"]:
+                Param_data["Price"][i] = 2.99
+            elif Param_data["Ingredient_Type"][i] in ["Premium Topping"]:
+                Param_data["Price"][i] = Param_data["Additional_Price_For_Premium_Toppings"][i]
+            Param_data["Space"][i] = round(random.uniform(0, 1), 2)
+                
+        Param_data = Param_data.set_index('Ingredient').T
+
+        def formatter_for_stochastic_optimizer(p_data, data, type_, num = 1):
+            if type_ == "demand":
+                return np.array(p_data.values[:,0:data.shape[1]].astype(int))
+            else:
+                return np.array(p_data.values[num,0:data.shape[1]].astype(np.float64))
+
+            
+        demand = formatter_for_stochastic_optimizer(d, d, "demand")
+        price = formatter_for_stochastic_optimizer(Param_data, d, "price", 4)
+        cost = formatter_for_stochastic_optimizer(Param_data, d, "cost", 0)
+        space = formatter_for_stochastic_optimizer(Param_data, d, "space", 3)
+
+        total_space = 1000
+
+        expected_amount_of_orders, expected_amount_of_profit = stochastic_model.generate_quantities_and_expected_profits(price, cost, demand, space, total_space)
+
+        return render_template("analysis.html", user_input=[expected_amount_of_profit])
+    else:
+        return render_template("saladstop2.html")
 
 
 if __name__ == '__main__':
