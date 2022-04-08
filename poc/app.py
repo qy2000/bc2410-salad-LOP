@@ -17,16 +17,16 @@ def homepage():
     dietary_req = []
     user_input = {}
     if request.method == 'POST':
-        min_nutrition.append(int(request.form['min_cal']))
-        max_nutrition.append(int(request.form['max_cal']))
-        min_nutrition.append(int(request.form['min_carb']))
-        max_nutrition.append(int(request.form['max_carb']))
-        min_nutrition.append(int(request.form['min_pro']))
-        max_nutrition.append(int(request.form['max_pro']))
-        min_nutrition.append(int(request.form['min_fat']))
-        max_nutrition.append(int(request.form['max_fat']))
-        min_nutrition.append(int(request.form['min_sug']))
-        max_nutrition.append(int(request.form['max_sug']))
+        min_nutrition.append(int(float(request.form['min_cal'])))
+        max_nutrition.append(int(float(request.form['max_cal'])))
+        min_nutrition.append(int(float(request.form['min_carb'])))
+        max_nutrition.append(int(float(request.form['max_carb'])))
+        min_nutrition.append(int(float(request.form['min_pro'])))
+        max_nutrition.append(int(float(request.form['max_pro'])))
+        min_nutrition.append(int(float(request.form['min_fat'])))
+        max_nutrition.append(int(float(request.form['max_fat'])))
+        min_nutrition.append(int(float(request.form['min_sug'])))
+        max_nutrition.append(int(float(request.form['max_sug'])))
         # min_nutrition.append(int(request.form['min_sod']))
         # max_nutrition.append(int(request.form['max_sod']))
         user_input["min_nutrition"] = min_nutrition
@@ -57,7 +57,7 @@ def homepage():
 
         return render_template("recommendations.html",user_input=user_input,output=[ingredient_arr, base, round(total_cost,2), sum(total)])
     else:
-        return render_template("saladstop.html")
+        return render_template("saladstop.html", injection={"dietary_arr": ["cal", "carb", "pro", "fat", "sug"]})
 
 
 @app.route('/stochastic', methods=['GET','POST'])
