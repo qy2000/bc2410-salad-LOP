@@ -31,8 +31,8 @@ def homepage():
         # max_nutrition.append(int(request.form['max_sod']))
         user_input["min_nutrition"] = min_nutrition
         user_input["max_nutrition"] = max_nutrition
-        user_input['budget'] = int(request.form['Budget'])
-        user_input['max_num_of_premium_toppings'] = int(request.form['Max_Premium_Toppings'])
+        user_input['budget'] = int(float(request.form['Budget']))
+        user_input['max_num_of_premium_toppings'] = int(float(request.form['Max_Premium_Toppings']))
         dietary_req = request.form.getlist('dietary_req')
         user_input["dietary_req"] = dietary_req
         response, cost, base = linear_model.generate_salad(user_input, data_input, total)

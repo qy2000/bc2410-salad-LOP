@@ -63,7 +63,8 @@ $('#{{diet}}').noUiSlider({
     range: {
         'min': 0,
         'max': 1000
-    }
+    },
+    step: 1
 });
 $("#{{diet}}").Link("lower").to($("#{{diet}}-lower-value"));
 $("#{{diet}}").Link("lower").to($("#{{diet}}-input-lower-value"));
@@ -148,18 +149,58 @@ $("#{{diet}}").Link("upper").to($("#{{diet}}-input-upper-value"));
     <td colspan="1"><input type="checkbox" id="Spice" name="dietary_req" value="1"></td>
     <td colspan="1"><input type="checkbox" id="Spice" name="dietary_req" value="0"></td>
 </tr>
-<tr><td colspan="3", align="center">Cost Preferences</td></tr>
+
+<h4>Minimum number of premium ingredients</h4>
+<div class="slider_component">
+    <div class="slider_component_itself_wrapper">
+        <div id="mpt" class="slider_component_itself"></div>
+    </div>
+    <div class="right_value value">
+        <span name="max_mpt" id="mpt-upper-value"></span>
+        <input type="hidden" id="mpt-input-upper-value" name="Max_Premium_Toppings" />
+    </div>
+</div>
+<script>
+$('#mpt').noUiSlider({
+    start: 10,
+    connect: 'lower',
+    range: {
+        'min': 0,
+        'max': 10
+    },
+    step: 1
+});
+$("#mpt").Link().to($("#mpt-upper-value"));
+$("#mpt").Link().to($("#mpt-input-upper-value"));
+</script>
+
+<h4>Budget</h4>
+<div class="slider_component">
+    <div class="slider_component_itself_wrapper">
+        <div id="budget" class="slider_component_itself"></div>
+    </div>
+    <div class="right_value value">
+        <span name="max_budget" id="budget-upper-value"></span>
+        <input type="hidden" id="budget-input-upper-value" name="Budget" />
+    </div>
+</div>
+<script>
+$('#budget').noUiSlider({
+    start: 1000,
+    connect: 'lower',
+    range: {
+        'min': 0,
+        'max': 1000
+    },
+    step: 1
+});
+$("#budget").Link().to($("#budget-upper-value"));
+$("#budget").Link().to($("#budget-input-upper-value"));
+</script>
+
 <tr>
-    <td>How many premium toppings would you like to have?</td>
-    <td colspan="2"><input type="text" name="Max_Premium_Toppings"></td>
+<td colspan="3", align = "center"><input type="submit" value="Submit Preferences"></td>
 </tr>
-<tr>
-    <td>What's your budget in SGD? </td>
-    <td colspan="2"><input type="text" name="Budget"></td>
-</tr>
-<tr>
-    <td colspan="3", align = "center"><input type="submit" value="Submit Preferences"></td>
-        </tr>
 </tbody>
 </table>
 </form>
