@@ -57,7 +57,13 @@ def homepage():
 
         return render_template("recommendations.html",user_input=user_input,output=[ingredient_arr, base, round(total_cost,2), sum(total)])
     else:
-        return render_template("saladstop.html", injection={"dietary_arr": ["cal", "carb", "pro", "fat", "sug"]})
+        return render_template("saladstop.html", injection={"dietary_arr": [
+            {"form": "cal", "label": "Calories", "min": 0, "max": 1000, "step":1}, 
+            {"form": "carb", "label": "Carbohydrates", "min": 0, "max": 250, "step":1}, 
+            {"form": "pro", "label": "Proteins", "min": 0, "max": 250, "step":1}, 
+            {"form": "fat", "label": "Fats", "min": 0, "max": 100, "step":1},
+            {"form": "sug", "label": "Sugars", "min": 0, "max": 200, "step":1}
+            ]})
 
 
 @app.route('/stochastic', methods=['GET','POST'])
