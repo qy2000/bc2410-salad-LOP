@@ -42,77 +42,37 @@
 <h2>Please indicate your preferences.</h2>
 <form action="/" method = "POST">
 {% for diet in injection["dietary_arr"] %}
-<h4>{{diet}}</h4>
+<h4>{{diet['label']}}</h4>
 <div class="slider_component">
     <div class="left_value value">
-        <span name="min_{{diet}}" id="{{diet}}-lower-value"></span>
-        <input type="hidden" name="min_{{diet}}" id="{{diet}}-input-lower-value" />
+        <span name="min_{{diet['form']}}" id="{{diet['form']}}-lower-value"></span>
+        <input type="hidden" name="min_{{diet['form']}}" id="{{diet['form']}}-input-lower-value" />
     </div>
     <div class="slider_component_itself_wrapper">
-        <div id="{{diet}}" class="slider_component_itself"></div>
+        <div id="{{diet['form']}}" class="slider_component_itself"></div>
     </div>
     <div class="right_value value">
-        <span name="max_{{diet}}" id="{{diet}}-upper-value"></span>
-        <input type="hidden" name="max_{{diet}}" id="{{diet}}-input-upper-value" />
+        <span name="max_{{diet['form']}}" id="{{diet['form']}}-upper-value"></span>
+        <input type="hidden" name="max_{{diet['form']}}" id="{{diet['form']}}-input-upper-value" />
     </div>
 </div>
 <script>
-$('#{{diet}}').noUiSlider({
-    start: [ 0, 1000 ],
+$('#{{diet["form"]}}').noUiSlider({
+    start: [ parseInt('{{diet["min"]}}'), parseInt('{{diet["max"]}}') ],
     connect: true,
     range: {
-        'min': 0,
-        'max': 1000
+        'min': parseInt('{{diet["min"]}}'),
+        'max': parseInt('{{diet["max"]}}') 
     },
-    step: 1
+    step:  parseInt('{{diet["step"]}}')
 });
-$("#{{diet}}").Link("lower").to($("#{{diet}}-lower-value"));
-$("#{{diet}}").Link("lower").to($("#{{diet}}-input-lower-value"));
-$("#{{diet}}").Link("upper").to($("#{{diet}}-upper-value"));
-$("#{{diet}}").Link("upper").to($("#{{diet}}-input-upper-value"));
+$("#{{diet['form']}}").Link("lower").to($("#{{diet['form']}}-lower-value"));
+$("#{{diet['form']}}").Link("lower").to($("#{{diet['form']}}-input-lower-value"));
+$("#{{diet['form']}}").Link("upper").to($("#{{diet['form']}}-upper-value"));
+$("#{{diet['form']}}").Link("upper").to($("#{{diet['form']}}-input-upper-value"));
 </script>
 {% endfor %}
 <table border="1">
-<!-- <thead>
-<tr><td colspan="3", align="center">Nutritional Preferences</td></tr>
-<tr>
-    <th></th>
-    <th>Min</th>
-    <th colspan="1">Max</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-    <td>Calories</td>
-    <td><input type="text" name="min_cal"></td>
-    <td><input type="text" name="max_cal"></td>
-</tr>
-<tr>
-    <td>Carbohydrates</td>
-    <td><input type="text" name="min_carb"></td>
-    <td><input type="text" name="max_carb"></td>
-</tr>
-<tr>
-    <td>Proteins</td>
-    <td><input type="text" name="min_pro"></td>
-    <td><input type="text" name="max_pro"></td>
-</tr>
-<tr>
-    <td>Fats</td>
-    <td><input type="text" name="min_fat"></td>
-    <td><input type="text" name="max_fat"></td>
-</tr>
-<tr>
-    <td>Sugar</td>
-    <td><input type="text" name="min_sug"></td>
-    <td><input type="text" name="max_sug"></td>
-</tr>
-<tr>
-    <td>Sodium</td>
-    <td><input type="text" name="min_sod"></td>
-    <td><input type="text" name="max_sod"></td>
-</tr> -->
 <tr><td colspan="3", align="center">Dietary Restrictions</td></tr>
 <tr>
     <th></th>
@@ -186,11 +146,11 @@ $("#mpt").Link().to($("#mpt-input-upper-value"));
 </div>
 <script>
 $('#budget').noUiSlider({
-    start: 1000,
+    start: 50,
     connect: 'lower',
     range: {
         'min': 0,
-        'max': 1000
+        'max': 50
     },
     step: 1
 });
