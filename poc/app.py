@@ -107,7 +107,7 @@ def stochasticpage():
 
         return render_template("analysis.html", user_input=[expected_amount_of_profit])
     else:
-        return render_template("saladstop2.html")
+        return render_template("saladstop_admin.html")
 
 
 if __name__ == '__main__':
