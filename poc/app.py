@@ -55,6 +55,7 @@ def homepage():
                 if total[i] > 0:
                     total[i] -= 1
 
+
         return render_template("recommendations.html",user_input=user_input,output=[ingredient_arr, base, round(total_cost,2), sum(total)])
     else:
         return render_template("saladstop.html", injection={"dietary_arr": ["cal", "carb", "pro", "fat", "sug"]})

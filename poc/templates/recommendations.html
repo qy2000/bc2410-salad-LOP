@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
+<body align="center">
 <h1>Here's our recommendations based on your preferences</h1>
-<table>
-    <tr><td>User Inputs collected:{{ user_input }}</td></tr>
-    <tr><td>Output:{{ output }}</td></tr>
+<table border="1" cellspacing="10" align="center">
+<!--    <tr><td>User Inputs collected:{{ user_input }}</td></tr>-->
+<!--    <tr><td>Output:{{ output[0] }}</td></tr>-->
+    <thead><tr><td align="center">Ingredients for your salad</td></tr></thead>
+    <tbody>
+    {% for i in output[0] %}
+    <tr><td bgcolor="#7ad699">{{ i }}</td></tr>
+    {% endfor %}
+    </tbody>
 </table>
 </body>
 </html>

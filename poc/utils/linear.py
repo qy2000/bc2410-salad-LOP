@@ -6,7 +6,7 @@ import traceback
 
 
 def data_preparation():
-    data1 = pd.read_csv('../data/menu.csv')
+    data1 = pd.read_csv('data/menu.csv')
     ORIGINAL_QTY = 5
     data1['Total'] = ORIGINAL_QTY
     return data1
