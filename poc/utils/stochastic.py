@@ -4,8 +4,7 @@ import pandas as pd
 import numpy as np
 import traceback
 
-
-def generate_quantities_and_expected_profits(ingredient_pricing, ingredient_costing, customer_demand, ingredient_spacing, store_space):
+def generate_quantities_and_expected_profits(ingredient_pricing, ingredient_costing, customer_demand, ingredient_spacing, store_space, min_order=0):
     
     '''
     Construct Optimizer.
@@ -50,8 +49,8 @@ def generate_quantities_and_expected_profits(ingredient_pricing, ingredient_cost
     '''
     Constraint 4: Ensure that the amount of ingredients to order is at least 0 per day
     '''
-    model.st(x >= 0)
-    
+    model.st(x >= min_order)
+        
     '''
     Solve the model and generate results
     '''

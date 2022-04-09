@@ -70,11 +70,14 @@ def homepage():
 @app.route('/stochastic', methods=['GET','POST'])
 def stochasticpage():
     if request.method == 'POST':
-        Demand_data = pd.read_csv(request.files['demand'])
-        data1 = pd.read_csv(request.files['menu'])
-        d = Demand_data.set_index('Date').T
 
-        Param_data = pd.DataFrame().assign(Ingredient=data1['Ingredient'], COGS=data1['COGS_per_serving'], Ingredient_Type=data1['Ingredient_type'], Additional_Price_For_Premium_Toppings=data1['Price'])
+        data1 = pd.read_csv(request.files['menu'])
+        Demand_data = pd.read_csv(request.files['demand'])
+        d = Demand_data.set_index('date').tail(21)
+
+        Param_data = pd.DataFrame().assign(Ingredient=data1['Ingredient'], COGS=data1['COGS_per_serving'], \
+                                   Ingredient_Type=data1['Ingredient_type'], Additional_Price_For_Premium_Toppings=data1['Price'], \
+                                   Space = data1['Serving_size']/1000)
         Param_data['Price'] = None
         Param_data['Space'] = None
 
@@ -86,7 +89,8 @@ def stochasticpage():
             elif Param_data["Ingredient_Type"][i] in ["Premium Topping"]:
                 Param_data["Price"][i] = Param_data["Additional_Price_For_Premium_Toppings"][i]
             Param_data["Space"][i] = round(random.uniform(0, 1), 2)
-                
+        Param_data["Min_order"] = None
+        Param_data["Min_order"] = pd.Series([min(d[i]) for i in d.columns])
         Param_data = Param_data.set_index('Ingredient').T
 
         def formatter_for_stochastic_optimizer(p_data, data, type_, num = 1):
@@ -95,15 +99,15 @@ def stochasticpage():
             else:
                 return np.array(p_data.values[num,0:data.shape[1]].astype(np.float64))
 
-            
         demand = formatter_for_stochastic_optimizer(d, d, "demand")
         price = formatter_for_stochastic_optimizer(Param_data, d, "price", 4)
         cost = formatter_for_stochastic_optimizer(Param_data, d, "cost", 0)
         space = formatter_for_stochastic_optimizer(Param_data, d, "space", 3)
+        min_order = formatter_for_stochastic_optimizer(Param_data, d, "Min_order", 5)
 
-        total_space = 1000
+        total_space = 10000
 
-        expected_amount_of_orders, expected_amount_of_profit = stochastic_model.generate_quantities_and_expected_profits(price, cost, demand, space, total_space)
+        expected_amount_of_orders, expected_amount_of_profit = stochastic_model.generate_quantities_and_expected_profits(price, cost, demand, space, total_space, min_order)
 
         return render_template("analysis.html", user_input=[expected_amount_of_profit])
     else:

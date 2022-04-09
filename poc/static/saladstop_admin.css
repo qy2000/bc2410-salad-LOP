@@ -10,9 +10,9 @@ body {
   background-color: #15172b;
   border-radius: 20px;
   box-sizing: border-box;
-  height: 500px;
-  padding: 20px;
-  width: 320px;
+  height: 700px;
+  padding: 30px;
+  width: 500px;
 }
 
 .title {
@@ -71,7 +71,7 @@ body {
 }
 
 .cut-short {
-  width: 130px;
+  width: 90px;
 }
 
 .input:focus ~ .cut,
@@ -122,3 +122,12 @@ body {
 .submit:active {
   background-color: #06b;
 }
+
+.form-container {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ height: 80%;
+ margin: 20px 0 0 0;
+}
+
