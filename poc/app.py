@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, Response
 import csv
 import utils.linear as linear_model
 import utils.stochastic as stochastic_model
@@ -9,6 +9,8 @@ import random
 app = Flask(__name__)
 data1 = linear_model.data_preparation()
 data_input, total, data = linear_model.create_data_input(data1)
+
+expected_amount_of_orders_df = None
 
 @app.route('/', methods=['GET','POST'])
 def homepage():
@@ -109,9 +111,29 @@ def stochasticpage():
 
         expected_amount_of_orders, expected_amount_of_profit = stochastic_model.generate_quantities_and_expected_profits(price, cost, demand, space, total_space, min_order)
 
-        return render_template("analysis.html", user_input=[expected_amount_of_profit])
+        global expected_amount_of_orders_df
+
+        expected_amount_of_orders_df = pd.DataFrame().assign(Ingredient=list(data1['Ingredient'])[:-1], Quantity_to_order=expected_amount_of_orders)
+        expected_amount_of_orders_df = expected_amount_of_orders_df.set_index("Ingredient").T
+
+        return render_template("analysis.html", user_input={
+            "labels":list(d.columns), 
+            "expected_orders":expected_amount_of_orders, 
+            "expected_profit":expected_amount_of_profit
+            })
     else:
         return render_template("saladstop_admin.html")
+
+
+@app.route("/download")
+def getPlotCSV():
+    global expected_amount_of_orders_df
+    temp = expected_amount_of_orders_df.to_csv()
+    expected_amount_of_orders_df = None
+    return Response(
+        temp,
+        mimetype="text/csv",
+        headers={"Content-disposition":"attachment; filename=analysis.csv"})
 
 
 if __name__ == '__main__':
