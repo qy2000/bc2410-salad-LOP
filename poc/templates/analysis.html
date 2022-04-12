@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='analysis.css') }}">
+</head>
+<body>
+
+<div class="gallery-header-container">
+<h1>Ingredient Order Predictions</h1>
+<a href="/download"><img src='{{ url_for("static", filename="images/download.png") }}' width="50" height="50" /></a>
+</div>
+
+<div class="gallery-container">
+{% for label in user_input["labels"] %}
+<!-- {{loop.index}} -->
+<div class="gallery">
+<img src='{{ url_for("static", filename="images/" + label + ".png") }}' alt="Cinque Terre" width="600" height="400">
+</a>
+<div class="desc">{{label}}</div>
+<div class="desc">Quantity {{user_input["expected_orders"][loop.index]}}</div>
+</div>
+{% endfor %}
+</div>
+</body>
+</html>
