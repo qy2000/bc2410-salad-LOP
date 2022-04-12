@@ -1,18 +1,20 @@
-/* body {
+body {
   align-items: center;
   background-color: #000;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
+  color: white;
 }
 
 .form {
   background-color: #15172b;
   border-radius: 20px;
   box-sizing: border-box;
-  height: 500px;
-  padding: 20px;
-  width: 320px;
+  height: 1400px;
+  padding: 30px;
+  width: 800px;
+  margin: 100px 0 100px 0;
 }
 
 .title {
@@ -29,6 +31,7 @@
   font-size: 16px;
   font-weight: 600;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .input-container {
@@ -121,7 +124,7 @@
 
 .submit:active {
   background-color: #06b;
-} */
+}
 
 
 
@@ -130,7 +133,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1000px;
+  width: 750px;
   margin: 20px 0;
 }
 
@@ -139,11 +142,42 @@
   padding: 0 10px;
 }
 
+.slider_component_wrapper {
+  padding: 10px 0;
+}
+
 .value {
   min-width: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h4 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.dietary_restriction_container {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20px;
+  margin: 50px 0;
+}
+
+.dietary_restriction_container_unit {
+  background-color: #65657b;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.dietary_restriction_container_unit h4 {
+  font-size: 12px;
 }
 
 /* .values_component {

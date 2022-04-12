@@ -19,6 +19,20 @@ def homepage():
     dietary_req = []
     user_input = {}
     if request.method == 'POST':
+
+        value1 = request.form.getlist('Vegan') 
+        value2 = request.form.getlist('Vegetarian') 
+        value3 = request.form.getlist('Gluten-Free') 
+        value4 = request.form.getlist('Dairy-Free') 
+        value5 = request.form.getlist('Nuts-Free') 
+        value6 = request.form.getlist('Spicy')
+
+        def convert_to_0_or_1(val):
+            if val == []:
+                return 0
+            else:
+                return 1 
+
         min_nutrition.append(int(float(request.form['min_cal'])))
         max_nutrition.append(int(float(request.form['max_cal'])))
         min_nutrition.append(int(float(request.form['min_carb'])))
@@ -35,7 +49,17 @@ def homepage():
         user_input["max_nutrition"] = max_nutrition
         user_input['budget'] = int(float(request.form['Budget']))
         user_input['max_num_of_premium_toppings'] = int(float(request.form['Max_Premium_Toppings']))
-        dietary_req = request.form.getlist('dietary_req')
+        # dietary_req = request.form.getlist('dietary_req')
+
+        dietary_req = [
+            convert_to_0_or_1(value1), 
+            convert_to_0_or_1(value2), 
+            convert_to_0_or_1(value3), 
+            convert_to_0_or_1(value4), 
+            convert_to_0_or_1(value5), 
+            convert_to_0_or_1(value6)
+        ]
+
         user_input["dietary_req"] = dietary_req
         response, cost, base = linear_model.generate_salad(user_input, data_input, total)
 
@@ -66,7 +90,16 @@ def homepage():
             {"form": "pro", "label": "Proteins", "min": 0, "max": 250, "step":1}, 
             {"form": "fat", "label": "Fats", "min": 0, "max": 100, "step":1},
             {"form": "sug", "label": "Sugars", "min": 0, "max": 200, "step":1}
-            ]})
+            ],
+            "restriction_arr": [
+            {"name": "Vegan"},  
+            {"name": "Vegetarian"},  
+            {"name": "Gluten-Free"},  
+            {"name": "Dairy-Free"},   
+            {"name": "Nuts-Free"},  
+            {"name": "Spicy"},    
+            ]
+            })
 
 
 @app.route('/stochastic', methods=['GET','POST'])

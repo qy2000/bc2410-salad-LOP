@@ -4,17 +4,46 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<style>
+h1 {
+color: #eee;
+font-family: sans-serif;
+font-size: 24px;
+font-weight: 600;
+}
+body {
+background-color: #15172b;
+overflow: hidden;
+position: absolute;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center; /*centers items on the line (the x-axis by default)*/
+align-items: center; /*centers items on the cross-axis (y by default)*/
+}
+.container {
+display: flex;
+flex-direction: column;
+}
+table {
+    background-color: #eee;
+}
+</style>
 <body align="center">
+{% if output == "Cannot make a salad... Impossible set of constraints" %}
+<h1>{{ output }}</h1>
+{% else %}
+<div class="container">
 <h1>Here's our recommendations based on your preferences</h1>
 <table border="1" cellspacing="10" align="center">
-<!--    <tr><td>User Inputs collected:{{ user_input }}</td></tr>-->
-<!--    <tr><td>Output:{{ output[0] }}</td></tr>-->
-    <thead><tr><td align="center">Ingredients for your salad</td></tr></thead>
-    <tbody>
-    {% for i in output[0] %}
-    <tr><td bgcolor="#7ad699">{{ i }}</td></tr>
-    {% endfor %}
-    </tbody>
+<thead><tr><td align="center">Ingredients for your salad</td></tr></thead>
+<tbody>
+{% for i in output[0] %}
+<tr><td bgcolor="#7ad699">{{ i }}</td></tr>
+{% endfor %}
+</tbody>
 </table>
+</div>
+{% endif %}
 </body>
 </html>
