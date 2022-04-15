@@ -1,4 +1,4 @@
-# bc2410-salad-LOP
+# Making salads great again!
 
 ### Development using Git Branching
 
