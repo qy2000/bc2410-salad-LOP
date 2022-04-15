@@ -26,7 +26,7 @@ Proof of Concept solution
 
 - Web application with a proper UI serving our optimisation models for end users 
 
-- install all relevant libraries before running commands
+- Install all relevant libraries before running commands
 
   ```
   cd poc
