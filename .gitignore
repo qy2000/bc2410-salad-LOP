@@ -12,6 +12,8 @@
 Thumbs.db
 UserInterfaceState.xcuserstate
 $RECYCLE.BIN/
+.ipynb_checkpoints
+**/*.ipynb_checkpoints/
 
 *.log
 log.txt

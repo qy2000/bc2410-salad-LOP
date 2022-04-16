@@ -43,21 +43,24 @@ Proof of Concept solution
 
 This is to prevent conflicts when we are pulling/pushing code. Finalised model/code will be merged into master later on.
 
-- git branch YOUR_NAME
-
-- git checkout YOUR_NAME
-
-  - all uncommitted changes will remain in your git workspace
-
-- git add .
-
-- git commit -m "COMMIT MESSAGE"
-
-- git push origin YOUR_NAME
+```
+git branch YOUR_NAME
+git checkout YOUR_NAME
+git add .
+git commit -m "COMMIT MESSAGE"
+git push origin YOUR_NAME
+```
 
 ### 3. Dev Notes
 
-1. NotImplementedError: Cannot convert a symbolic Tensor (lstm_2/strided_slice:0) to a numpy array
+1. Before developing/analysis, generate datasets first (make sure you have downloaded the appropriate libraries)
+
+	```
+	cd code
+	python3 generate_datasets.py
+	```
+
+2. NotImplementedError: Cannot convert a symbolic Tensor (lstm_2/strided_slice:0) to a numpy array
 
     - This is a result of conflicting numpy versions (RSOME requires the numpy version to be 1.16 where as the LSTM model requires numpy version to be 1.18
 
